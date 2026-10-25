@@ -166,6 +166,8 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - Apify fonctionne via `APIFY_TOKEN` (plan gratuit : 5 $ / mois). Coût réel de la première analyse : 0,41 $.
 - Outils Apify utilisés : `instagram-profile-scraper` et `instagram-post-scraper` (données publiques uniquement). La recherche de comptes par mot-clé d'Apify donne de mauvais résultats.
 - Réseau de l'environnement : les images Instagram viennent de dizaines d'adresses (`*.cdninstagram.com`, `*.fbcdn.net`) : il faut les autoriser **avec l'étoile** puis ouvrir une nouvelle session. L'analyse visuelle de la grille reste à faire.
+- Kie.AI (génération d'images) : clé ajoutée par les réglages de l'environnement (ajoutée automatiquement aux appels vers `api.kie.ai`, la variable n'est pas visible). Test du 25/10 : 1 image réaliste = 4 crédits, ~10 s. **Le téléchargement des images générées est bloqué** : ajouter `tempfile.aiquickdraw.com` aux domaines autorisés.
+- Calendrier : `calendrier/` (CSV, Markdown, PDF) du 26/10 au 29/11/2026, régénérable avec `python3 calendrier/_generer.py`. Kit de marque : `kit-marque/` (PNG). Analyse du feed : `rapports/feed-couleurs-2026-10-25.md`.
 - Supabase : tables créées et données chargées (18 comptes, 41 traits, 34 idées). Pour ajouter de nouvelles données : `python3 scripts/charger_supabase.py 2026-10-25` (ne ré-envoie que ce qui manque).
 
 ### Tâches suivantes (à détailler au fur et à mesure)
@@ -239,3 +241,4 @@ Fichiers liés :
 | 25/10/2026 | Décisions : CM au cas par cas, tarifs reportés, Blondie comme source d'inspiration. Analyse de 5 comptes de la niche et image de marque v1. |
 | 25/10/2026 | Retours de June sur les comptes de la niche. Objectif : stratégie de contenu + identité visuelle (palette, typo, styles de réels). |
 | 25/10/2026 | Analyse de 5 agences qui vendent de la com' aux pros du tourisme, stratégie de contenu (4 rayons) et identité de marque v2 (palette, polices, tampon). Données chargées dans Supabase. |
+| 25/10/2026 | Kie.AI testé (clé OK, crédits rechargés), kit de marque en PNG, analyse du feed, calendrier de contenu du 26/10 au 29/11. |
