@@ -165,8 +165,8 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - Premier cas test fait : audit de mon compte + 3 références + 4 comptes montagne. Rapports `.md` dans `rapports/`.
 - Apify fonctionne via `APIFY_TOKEN` (plan gratuit : 5 $ / mois). Coût réel de la première analyse : 0,41 $.
 - Outils Apify utilisés : `instagram-profile-scraper` et `instagram-post-scraper` (données publiques uniquement). La recherche de comptes par mot-clé d'Apify donne de mauvais résultats.
-- Réseau de l'environnement : `cdninstagram.com` (images) et la plupart des sites web sont bloqués. L'analyse visuelle de la grille reste à faire.
-- Supabase : tables à créer en exécutant `supabase/schema.sql`, puis charger les données avec `python3 scripts/charger_supabase.py 2026-10-25`.
+- Réseau de l'environnement : les images Instagram viennent de dizaines d'adresses (`*.cdninstagram.com`, `*.fbcdn.net`) : il faut les autoriser **avec l'étoile** puis ouvrir une nouvelle session. L'analyse visuelle de la grille reste à faire.
+- Supabase : tables créées et données chargées (18 comptes, 41 traits, 34 idées). Pour ajouter de nouvelles données : `python3 scripts/charger_supabase.py 2026-10-25` (ne ré-envoie que ce qui manque).
 
 ### Tâches suivantes (à détailler au fur et à mesure)
 - Tâche 2 : Générateur d'idées de contenu par lieu (type d'établissement + ambiance + cible → 15 idées POV, lifestyle, découverte).
@@ -215,7 +215,11 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 
 **But de la prochaine étape (June, 25/10)** : une stratégie de contenu pour June (réels éducatifs, cas clients, etc.), un feed épuré qui donne envie, immersif et qui apporte de la valeur, et notre propre identité : palette de couleurs, design, typographies, styles de réels. Les comptes à étudier en priorité sont ceux qui **vendent de la communication à des entreprises locales, touristiques et hôtels**.
 
-Image de marque v1 (à valider) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
+**Comptes qui vendent de la com' aux pros du tourisme (analysés le 25/10/2026)** : [@digitalmountainconsulting](https://www.instagram.com/digitalmountainconsulting) (Val Thorens, le plus proche de mon terrain), [@autourdelacom](https://www.instagram.com/autourdelacom) (contenus éducatifs de saison), [@lauramauri_socialmedia](https://www.instagram.com/lauramauri_socialmedia) (modèle solo), [@atelierdotcom](https://www.instagram.com/atelierdotcom) (branding hôtels), [@agencewebcom](https://www.instagram.com/agencewebcom) (peu utile). Leur engagement est faible : on s'inspire de leur positionnement, pas de leurs chiffres.
+
+**Identité de marque voulue (June, 25/10)** : *vintage, magasin, classe et élégant.* Proposition v2 à valider (`rapports/strategie-identite-2026-10-25.pdf`) : concept « maison de contenu / boutique de village de montagne » ; 4 rayons : La Vitrine, Le Comptoir (éducatif), L'Atelier (cas clients, coulisses), Le Carnet (local) ; palette Papier #F3ECE0, Sapin #2F4036, Laiton #B38B4D, Café #3A2B22, Rose poudré #D9B8A6 ; polices Cormorant Garamond + Jost ; tampon « Vu par June » et réel d'ouverture de porte.
+
+Image de marque v1 (niche) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
 
 Fichiers liés :
 - Agent : `.claude/agents/brand-inspiration.md`
@@ -234,3 +238,4 @@ Fichiers liés :
 | 25/10/2026 | Première analyse : audit June, références, synthèse stratégique Alpe d'Huez. Chiffres des comptes mis à jour, 2 nouvelles questions ouvertes. |
 | 25/10/2026 | Décisions : CM au cas par cas, tarifs reportés, Blondie comme source d'inspiration. Analyse de 5 comptes de la niche et image de marque v1. |
 | 25/10/2026 | Retours de June sur les comptes de la niche. Objectif : stratégie de contenu + identité visuelle (palette, typo, styles de réels). |
+| 25/10/2026 | Analyse de 5 agences qui vendent de la com' aux pros du tourisme, stratégie de contenu (4 rayons) et identité de marque v2 (palette, polices, tampon). Données chargées dans Supabase. |

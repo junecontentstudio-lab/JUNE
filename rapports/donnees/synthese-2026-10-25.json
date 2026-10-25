@@ -247,6 +247,86 @@
    "decision": "garder",
    "example_observed": "Tous les comptes de la niche",
    "adaptation_for_june": "2-3/sem sur June, 3-4/sem sur le perso"
+  },
+  {
+   "source": "autourdelacom",
+   "trait": "Contenus éducatifs de saison",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "« Et après le séjour ? », « Votre saison se termine, et votre com' ? »",
+   "adaptation_for_june": "Série « Comptoir » : conseils calés sur le calendrier de la station"
+  },
+  {
+   "source": "autourdelacom",
+   "trait": "Légendes en lettres Unicode « grasses »",
+   "category": "ton",
+   "decision": "eviter",
+   "example_observed": "Légendes en gras mathématique",
+   "adaptation_for_june": "Illisible pour les lecteurs d'écran : texte normal"
+  },
+  {
+   "source": "digitalmountainconsulting",
+   "trait": "Légendes bilingues FR/EN",
+   "category": "ton",
+   "decision": "adapter",
+   "example_observed": "« Your next alpine retreat in Morzine »",
+   "adaptation_for_june": "Version anglaise courte pour la clientèle étrangère"
+  },
+  {
+   "source": "digitalmountainconsulting",
+   "trait": "Histoire de la fondatrice en carrousel",
+   "category": "preuve",
+   "decision": "adapter",
+   "example_observed": "« Née à Val Thorens » (66 J'aime)",
+   "adaptation_for_june": "« Saisonnière à l'Alpe d'Huez » : légitimité locale"
+  },
+  {
+   "source": "digitalmountainconsulting",
+   "trait": "Annonces d'ouverture de lieux",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "Nouvelle adresse à Morzine, ouverture en décembre",
+   "adaptation_for_june": "Annoncer les ouvertures de la station dans « Le Carnet »"
+  },
+  {
+   "source": "lauramauri_socialmedia",
+   "trait": "Lancement d'offre en une publication",
+   "category": "conversion",
+   "decision": "garder",
+   "example_observed": "« Deux offres de shooting » présentées en carrousel",
+   "adaptation_for_june": "Présenter le pack fondateur de la même façon"
+  },
+  {
+   "source": "lauramauri_socialmedia",
+   "trait": "Journée type et « pourquoi ce métier »",
+   "category": "preuve",
+   "decision": "garder",
+   "example_observed": "Posts personnels les plus aimés après les cas clients",
+   "adaptation_for_june": "Coulisses dans « L'Atelier »"
+  },
+  {
+   "source": "atelierdotcom",
+   "trait": "Révélation d'identité (naming, logo)",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "« On a trouvé un nom qui fait voyager »",
+   "adaptation_for_june": "Carrousel « avant la saison / après » chez un client"
+  },
+  {
+   "source": "atelierdotcom",
+   "trait": "Mission shooting avec appel à l'action question",
+   "category": "conversion",
+   "decision": "garder",
+   "example_observed": "« On vient quand dans votre hôtel ? »",
+   "adaptation_for_june": "Même question en fin de cas client"
+  },
+  {
+   "source": "agencewebcom",
+   "trait": "Contenu très technique (SEO, outils)",
+   "category": "cible",
+   "decision": "eviter",
+   "example_observed": "Posts sur les moteurs de réservation",
+   "adaptation_for_june": "Hors sujet pour June"
   }
  ],
  "content_ideas": [
@@ -431,6 +511,86 @@
    "inspired_by": "limitlesssecrets",
    "target": "tous",
    "for_account": "ludii_cdt"
+  },
+  {
+   "title": "Les 4 plans qui manquent à votre hôtel",
+   "format": "reel-educatif",
+   "hook": "Votre hôtel a déjà des photos de chambre. Voici ce qui lui manque",
+   "inspired_by": "collabsbymarie",
+   "target": "hotel",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "3 erreurs qui font fuir vos clients sur Instagram",
+   "format": "reel-educatif",
+   "hook": "3 erreurs qui font fuir vos clients avant même qu'ils réservent",
+   "inspired_by": "autourdelacom",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Publier avant le 15 décembre",
+   "format": "reel-educatif",
+   "hook": "Pourquoi votre hôtel doit publier avant le 15 décembre",
+   "inspired_by": "autourdelacom",
+   "target": "hotel",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Ce que vos clients regardent en 5 secondes",
+   "format": "reel-educatif",
+   "hook": "Ce que vos clients regardent en premier sur votre profil",
+   "inspired_by": "collabsbymarie",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Filmer un petit-déjeuner qui donne envie",
+   "format": "reel-educatif",
+   "hook": "Comment filmer un petit-déjeuner qui donne envie de réserver",
+   "inspired_by": "atelierdotcom",
+   "target": "hebergement",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Filmer une vitrine un jour de neige",
+   "format": "reel-educatif",
+   "hook": "Boutiques de station : filmer une vitrine un jour de neige",
+   "inspired_by": "atelierdotcom",
+   "target": "boutique",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Ce que votre équipe filme seule, ce que vous me confiez",
+   "format": "reel-educatif",
+   "hook": "Les 3 contenus que votre équipe peut filmer elle-même",
+   "inspired_by": "lauramauri_socialmedia",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Révélation avant la saison / après",
+   "format": "carrousel",
+   "hook": "Avant la saison, après la saison : le même lieu",
+   "inspired_by": "atelierdotcom",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Annonce d'ouverture dans la station",
+   "format": "carnet",
+   "hook": "Nouvelle adresse à l'Alpe d'Huez : ouverture en décembre",
+   "inspired_by": "digitalmountainconsulting",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Mon histoire : saisonnière à l'Alpe d'Huez",
+   "format": "carrousel",
+   "hook": "Saisonnière à l'Alpe d'Huez depuis X saisons",
+   "inspired_by": "digitalmountainconsulting",
+   "target": "tous",
+   "for_account": "junecontentstudio"
   }
  ]
 }

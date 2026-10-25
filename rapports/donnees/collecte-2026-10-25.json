@@ -77,6 +77,36 @@
    "url": "https://www.instagram.com/travelsbytrine",
    "role": "ideas",
    "why": "Niche : UGC hébergements (inactive depuis avril 2025)"
+  },
+  {
+   "handle": "digitalmountainconsulting",
+   "url": "https://www.instagram.com/digitalmountainconsulting",
+   "role": "mountain",
+   "why": "Agence com hôtels/restos de montagne (Val Thorens)"
+  },
+  {
+   "handle": "autourdelacom",
+   "url": "https://www.instagram.com/autourdelacom",
+   "role": "strategy",
+   "why": "Agence com tourisme/hôtellerie/food (Nantes) : contenus éducatifs saisonniers"
+  },
+  {
+   "handle": "lauramauri_socialmedia",
+   "url": "https://www.instagram.com/lauramauri_socialmedia",
+   "role": "ideas",
+   "why": "Freelance social media + shooting food/hôtels (Haute-Savoie) : modèle solo"
+  },
+  {
+   "handle": "atelierdotcom",
+   "url": "https://www.instagram.com/atelierdotcom",
+   "role": "branding",
+   "why": "Agence hôtel/restaurant : branding, charte, shooting"
+  },
+  {
+   "handle": "agencewebcom",
+   "url": "https://www.instagram.com/agencewebcom",
+   "role": "other",
+   "why": "Agence web hôtellerie/restauration : peu utile"
   }
  ],
  "snapshots": [
@@ -605,6 +635,131 @@
      "2026-10-24"
     ]
    }
+  },
+  {
+   "handle": "digitalmountainconsulting",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Digital Mountain Consulting — L’agence des maisons d’exception",
+   "bio": "Communiquez au sommet\nHôtels · Restaurants · Maisons d’exception\nImage, contenu & réseaux sociaux\nNée à Val Thorens",
+   "bio_link": "http://www.digitalmountainconsulting.fr/",
+   "category": null,
+   "followers": 4889,
+   "following": 4874,
+   "posts_count": 889,
+   "posts_analyzed": 20,
+   "avg_likes": 34.4,
+   "avg_comments": 1.3,
+   "engagement_rate": 0.7,
+   "posts_per_week": 20.0,
+   "format_mix": {
+    "Image": 5,
+    "Sidecar": 12,
+    "Video": 3
+   },
+   "highlights": {
+    "count": 3
+   },
+   "source": "apify"
+  },
+  {
+   "handle": "autourdelacom",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Agence de communication - Nantes & Grand Ouest- Georgina Barré",
+   "bio": "📌Agence de com' digitale\nTourisme Hôtellerie Food & Wine\n🤝Stratégie, clarté, cohérence\n➡️ Actions & résultats\n👇Le point sur ta com' en 30 min",
+   "bio_link": "https://autourdelacom.fr/",
+   "category": null,
+   "followers": 1089,
+   "following": 1117,
+   "posts_count": null,
+   "posts_analyzed": 20,
+   "avg_likes": 21.6,
+   "avg_comments": 0.5,
+   "engagement_rate": 2.0,
+   "posts_per_week": 1.06,
+   "format_mix": {
+    "Image": 14,
+    "Video": 3,
+    "Sidecar": 3
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify"
+  },
+  {
+   "handle": "lauramauri_socialmedia",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Laura Mauri 🌈 Social media & contenus visuels",
+   "bio": "Social media • Création de contenu\n& Shooting photo 📸\nFood • Hôtels • Art de vivre\nHaute-Savoie • Genève 🏔️\n👇Projets & collaborations",
+   "bio_link": "https://www.lm-socialmedia.fr/mes-services/",
+   "category": null,
+   "followers": 333,
+   "following": 1025,
+   "posts_count": 47,
+   "posts_analyzed": 20,
+   "avg_likes": 34.1,
+   "avg_comments": 2.9,
+   "engagement_rate": 11.1,
+   "posts_per_week": 0.32,
+   "format_mix": {
+    "Image": 9,
+    "Sidecar": 9,
+    "Video": 2
+   },
+   "highlights": {
+    "count": 6
+   },
+   "source": "apify"
+  },
+  {
+   "handle": "atelierdotcom",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Atelier Dotcom",
+   "bio": "🚀 Agence digitale hôtel & restaurant\n🎨 Branding, naming, charte graphique\n💻 Site Internet, Webdesign, SEO\n📱 Réseaux sociaux 📸 Shooting photos",
+   "bio_link": "http://www.atelierdotcom.com/",
+   "category": null,
+   "followers": 497,
+   "following": 365,
+   "posts_count": null,
+   "posts_analyzed": 20,
+   "avg_likes": 26.1,
+   "avg_comments": 0.1,
+   "engagement_rate": 5.3,
+   "posts_per_week": 1.16,
+   "format_mix": {
+    "Sidecar": 12,
+    "Image": 7,
+    "Video": 1
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify"
+  },
+  {
+   "handle": "agencewebcom",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Agence WEBCOM | Site web & Marketing Digital",
+   "bio": "NOUVEAUTÉ : Pulse & MASK\nSite web • SEO • GEO • Google Ads • Social Ads\nExperts en Hôtellerie & Restauration \nCEO @_davidrobin_ & sa team",
+   "bio_link": "http://www.agencewebcom.com/",
+   "category": null,
+   "followers": 8048,
+   "following": 594,
+   "posts_count": null,
+   "posts_analyzed": 20,
+   "avg_likes": null,
+   "avg_comments": 1.7,
+   "engagement_rate": null,
+   "posts_per_week": 3.41,
+   "format_mix": {
+    "Sidecar": 15,
+    "Image": 3,
+    "Video": 2
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify"
   }
  ],
  "audits": [

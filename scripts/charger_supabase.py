@@ -4,7 +4,7 @@ Utilisation :  python3 scripts/charger_supabase.py 2026-10-25
 
 Les clés sont lues dans les variables d'environnement SUPABASE_URL et
 SUPABASE_SERVICE_ROLE_KEY : elles ne sont jamais affichées ni écrites.
-Le script refuse de charger deux fois la même date (pas de doublons).
+Le script peut être relancé : ce qui est déjà chargé est ignoré (pas de doublons).
 """
 import json
 import os
@@ -58,47 +58,43 @@ def main(date):
     )
     ids = {c["handle"]: c["id"] for c in comptes}
 
-    # Garde-fou : cette date est-elle déjà chargée ?
-    deja = appel("GET", f"audits?select=id&audit_date=eq.{date}&limit=1")
-    if deja:
-        sys.exit(f"Les données du {date} sont déjà dans Supabase : rien n'a été ajouté.")
+    def deja_charge(table, filtre=""):
+        return bool(appel("GET", f"{table}?select=id{filtre}&limit=1"))
 
-    # 2. Photos des comptes
-    snapshots = []
-    for s in collecte["snapshots"]:
-        ligne = {k: v for k, v in s.items() if k != "handle"}
-        ligne["account_id"] = ids[s["handle"]]
-        snapshots.append(ligne)
-    appel("POST", "account_snapshots", snapshots, prefer="return=minimal")
+    def avec_compte(lignes, cle_handle, cle_id):
+        sortie = []
+        for l in lignes:
+            ligne = {k: v for k, v in l.items() if k != cle_handle}
+            ligne[cle_id] = ids.get(l.get(cle_handle))
+            sortie.append(ligne)
+        return sortie
 
-    # 3. Audits
-    audits = []
-    for a in collecte["audits"]:
-        ligne = {k: v for k, v in a.items() if k != "handle"}
-        ligne["account_id"] = ids[a["handle"]]
-        audits.append(ligne)
-    appel("POST", "audits", audits, prefer="return=minimal")
+    fait = []
 
-    # 4. Traits de marque
-    traits = []
-    for t in synthese["brand_traits"]:
-        ligne = {k: v for k, v in t.items() if k != "source"}
-        ligne["source_account_id"] = ids.get(t["source"])
-        traits.append(ligne)
-    appel("POST", "brand_traits", traits, prefer="return=minimal")
+    # (table, colonnes qui identifient une ligne, filtre de date éventuel, lignes, libellé)
+    etapes = [
+        ("account_snapshots", ["account_id"], f"&captured_at=gte.{date}T00:00:00Z&captured_at=lt.{date}T23:59:59Z",
+         avec_compte(collecte["snapshots"], "handle", "account_id"), "photos de comptes"),
+        ("audits", ["account_id", "axis"], f"&audit_date=eq.{date}",
+         avec_compte(collecte["audits"], "handle", "account_id"), "notes d'audit"),
+        ("brand_traits", ["source_account_id", "trait"], "",
+         avec_compte(synthese["brand_traits"], "source", "source_account_id"), "traits"),
+        ("content_ideas", ["title"], "",
+         [{"for_account": "junecontentstudio", **i}
+          for i in avec_compte(synthese["content_ideas"], "inspired_by", "inspired_by_account_id")], "idées"),
+    ]
+    for table, cles, filtre, lignes, libelle in etapes:
+        # On n'envoie que les lignes absentes de la base : le script peut être relancé après un ajout
+        existantes = appel("GET", f"{table}?select={','.join(cles)}{filtre}&limit=5000")
+        deja = {tuple(e[c] for c in cles) for e in existantes}
+        nouvelles = [l for l in lignes if tuple(l.get(c) for c in cles) not in deja]
+        if not nouvelles:
+            print(f"{table} : rien de nouveau.")
+            continue
+        appel("POST", table, nouvelles, prefer="return=minimal")
+        fait.append(f"{len(nouvelles)} {libelle}")
 
-    # 5. Idées de contenu
-    idees = []
-    for i in synthese["content_ideas"]:
-        ligne = {k: v for k, v in i.items() if k != "inspired_by"}
-        ligne["inspired_by_account_id"] = ids.get(i["inspired_by"]) if i["inspired_by"] else None
-        idees.append(ligne)
-    appel("POST", "content_ideas", idees, prefer="return=minimal")
-
-    print(
-        f"Chargé : {len(ids)} comptes, {len(snapshots)} photos de comptes, {len(audits)} notes d'audit, "
-        f"{len(traits)} traits, {len(idees)} idées."
-    )
+    print(f"Comptes : {len(ids)}. Ajouté : " + (", ".join(fait) if fait else "rien (tout était déjà chargé)") + ".")
 
 
 if __name__ == "__main__":
