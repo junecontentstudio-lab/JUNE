@@ -53,6 +53,30 @@
    "url": "https://www.instagram.com/ludii_cdt",
    "role": "other",
    "why": "Compte perso de June (non audité en détail)"
+  },
+  {
+   "handle": "mallaury_d",
+   "url": "https://www.instagram.com/mallaury_d",
+   "role": "ideas",
+   "why": "Niche : experte locale Toulon + UGC commerces (modèle compte perso)"
+  },
+  {
+   "handle": "collabsbymarie",
+   "url": "https://www.instagram.com/collabsbymarie",
+   "role": "ideas",
+   "why": "Niche : collabs hôtels, pédagogie photo"
+  },
+  {
+   "handle": "limitlesssecrets",
+   "url": "https://www.instagram.com/limitlesssecrets",
+   "role": "ideas",
+   "why": "Niche : photographe lieux et événements Paris"
+  },
+  {
+   "handle": "travelsbytrine",
+   "url": "https://www.instagram.com/travelsbytrine",
+   "role": "ideas",
+   "why": "Niche : UGC hébergements (inactive depuis avril 2025)"
   }
  ],
  "snapshots": [
@@ -272,43 +296,6 @@
    }
   },
   {
-   "handle": "mon_petit_chamonix",
-   "captured_at": "2026-10-25T12:00:00Z",
-   "display_name": "ᴍᴏɴ ᴘᴇᴛɪᴛ ᴄʜᴀᴍᴏɴɪx  ➡️ Bons plans",
-   "bio": "📍Vallée de Chamonix & Pays du Mont-Blanc\n🕵️‍♀️ Experte locale • bonnes adresses & lieux incontournables\n🤩 Optimisatrice de Com\n🧳 @mon_petit_somewhere",
-   "bio_link": "https://www.monpetitchamonix.com/",
-   "category": "Local & travel website",
-   "followers": 36635,
-   "following": 1566,
-   "posts_count": 1381,
-   "posts_analyzed": 8,
-   "highlights": {
-    "count": 25
-   },
-   "source": "apify",
-   "avg_likes": 556,
-   "avg_comments": 8.4,
-   "engagement_rate": 1.5,
-   "posts_per_week": 5.6,
-   "format_mix": {
-    "Sidecar": 5,
-    "Video": 3
-   },
-   "top_hashtags": {
-    "chamonix": 1,
-    "alps": 1
-   },
-   "raw": {
-    "likes_visibles": "8/8",
-    "median_likes": 497.0,
-    "collabs": 2,
-    "periode": [
-     "2026-10-13",
-     "2026-10-24"
-    ]
-   }
-  },
-  {
    "handle": "oralise.communication",
    "captured_at": "2026-10-25T12:00:00Z",
    "display_name": "Alex | Community Manager Tourisme, Food & Sport Outdoor ☀️",
@@ -407,6 +394,217 @@
     "count": 25
    },
    "source": "apify"
+  },
+  {
+   "handle": "mallaury_d",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Mallau | 📲 Créatrice de contenu / Influenceuse & UGC Toulon, Var",
+   "bio": "📍 Toulon & alentours\n🔎 Nos commerçants\n🍸 Food | Bonnes adresses | Resto | Evénements\n💻 Media : @decouvrirlacotedazur \n☀️ UGC @mallaury_d.ugc \n~",
+   "bio_link": "http://mallaurydalmasso.com/",
+   "category": "Blogger",
+   "followers": 25752,
+   "following": 4354,
+   "posts_count": null,
+   "posts_analyzed": 30,
+   "avg_likes": 391.9,
+   "avg_comments": 64.3,
+   "engagement_rate": 1.8,
+   "posts_per_week": 3.56,
+   "format_mix": {
+    "Video": 27,
+    "Image": 1,
+    "Sidecar": 2
+   },
+   "top_hashtags": {
+    "latoulonnaisepodcast": 2,
+    "entrepreneusetoulonnaise": 2,
+    "toulonmaville": 2,
+    "femmesentrepreneuses": 2,
+    "stationdeski": 1,
+    "orcieresmerlette": 1,
+    "hautesalpes": 1,
+    "vacancesenfamille": 1,
+    "vacancesdhiver": 1
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "raw": {
+    "median_likes": 182.5,
+    "collabs": 18,
+    "periode": [
+     "2026-08-26",
+     "2026-10-25"
+    ]
+   }
+  },
+  {
+   "handle": "collabsbymarie",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Collaboration hôtels | UGC voyage | Marie",
+   "bio": "🌍 Voyage gratuitement sans abonnés\n🎯 1,000 élèves +80 000€ offerts +100 collabs\n↓ Je t'explique dans une vidéo gratuite",
+   "bio_link": "https://www.marie-picard-business.com/accueil",
+   "category": null,
+   "followers": 16185,
+   "following": 2323,
+   "posts_count": 578,
+   "posts_analyzed": 30,
+   "avg_likes": 157.1,
+   "avg_comments": 22.9,
+   "engagement_rate": 1.1,
+   "posts_per_week": 4.57,
+   "format_mix": {
+    "Sidecar": 12,
+    "Video": 18
+   },
+   "top_hashtags": {},
+   "highlights": {
+    "count": 8
+   },
+   "source": "apify",
+   "raw": {
+    "median_likes": 85.0,
+    "collabs": 0,
+    "periode": [
+     "2026-09-08",
+     "2026-10-24"
+    ]
+   }
+  },
+  {
+   "handle": "limitlesssecrets",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Ophélie Schaffar / Travel Blogger",
+   "bio": "✦ French photographer & content creator 🇫🇷\n📍 Paris \n✦ Photoshoots in Paris 📸 @limitless_paris_photographer \n✦ Food reco🍽\n📩 hello@limitless-secrets.com",
+   "bio_link": "https://limitless-secrets.com/photoshoot-in-paris/",
+   "category": "Blogger",
+   "followers": 324055,
+   "following": 2421,
+   "posts_count": null,
+   "posts_analyzed": 30,
+   "avg_likes": 1243.7,
+   "avg_comments": 127.4,
+   "engagement_rate": 0.4,
+   "posts_per_week": 3.39,
+   "format_mix": {
+    "Sidecar": 7,
+    "Video": 23
+   },
+   "top_hashtags": {
+    "visitparis": 14,
+    "parislife": 8,
+    "parisianlife": 7,
+    "parisfood": 4,
+    "travelindia": 3,
+    "indiatravel": 3,
+    "paristravel": 3,
+    "parisvibes": 3,
+    "parismaville": 3,
+    "afternoontea": 2
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "raw": {
+    "median_likes": 754.5,
+    "collabs": 2,
+    "periode": [
+     "2026-08-23",
+     "2026-10-24"
+    ]
+   }
+  },
+  {
+   "handle": "travelsbytrine",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Trine | Solo travel content creator | Hotel & UGC creator",
+   "bio": "Tips and inspiration for solo female travelling: \n🌏 Destinations & sights\n⛺️ Accommodations\n💌 TravelsbyTrine@outlook.com\n📨 Find my Media Kit here 👇🏻",
+   "bio_link": "https://www.canva.com/design/DAGS5h_Evaw/VwgUzzy0w3EW9kgTDz9m0A/edit?utm_content=DAGS5h_Evaw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+   "category": "None",
+   "followers": 4214,
+   "following": 4576,
+   "posts_count": null,
+   "posts_analyzed": 30,
+   "avg_likes": 100.3,
+   "avg_comments": 18.5,
+   "engagement_rate": 2.8,
+   "posts_per_week": 1.2,
+   "format_mix": {
+    "Sidecar": 9,
+    "Video": 20,
+    "Image": 1
+   },
+   "top_hashtags": {
+    "solotravel": 21,
+    "travelsolo": 16,
+    "travelblogger": 11,
+    "solofemaletravel": 10,
+    "travelinspiration": 8,
+    "travelsologirl": 7,
+    "travelsbytrine": 7,
+    "traveltips": 7,
+    "solotraveller": 6,
+    "travelblog": 5
+   },
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "raw": {
+    "median_likes": 87,
+    "collabs": 5,
+    "periode": [
+     "2024-10-21",
+     "2025-04-15"
+    ]
+   }
+  },
+  {
+   "handle": "mon_petit_chamonix",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "ᴍᴏɴ ᴘᴇᴛɪᴛ ᴄʜᴀᴍᴏɴɪx  ➡️ Bons plans",
+   "bio": "📍Vallée de Chamonix & Pays du Mont-Blanc\n🕵️‍♀️ Experte locale • bonnes adresses & lieux incontournables\n🤩 Optimisatrice de Com\n🧳 @mon_petit_somewhere",
+   "bio_link": "https://www.monpetitchamonix.com/",
+   "category": "Local & travel website",
+   "followers": 36635,
+   "following": 1566,
+   "posts_count": 1381,
+   "posts_analyzed": 30,
+   "avg_likes": 491.7,
+   "avg_comments": 9.0,
+   "engagement_rate": 1.4,
+   "posts_per_week": 3.68,
+   "format_mix": {
+    "Sidecar": 11,
+    "Image": 1,
+    "Video": 18
+   },
+   "top_hashtags": {
+    "chamonix": 16,
+    "monpetitchamonix": 4,
+    "montblanc": 4,
+    "alps": 3,
+    "hike": 3,
+    "rando": 2,
+    "suisse": 2,
+    "sportsanté": 2,
+    "Chamonix": 2,
+    "trail": 1
+   },
+   "highlights": {
+    "count": 25
+   },
+   "source": "apify",
+   "raw": {
+    "median_likes": 297.0,
+    "collabs": 13,
+    "periode": [
+     "2026-08-27",
+     "2026-10-24"
+    ]
+   }
   }
  ],
  "audits": [

@@ -204,6 +204,17 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 | Référence idées | [@lina.michy](https://www.instagram.com/lina.michy) | Idées de contenu, formats, hooks (même domaine que moi) |
 | Référence branding | [@agencebazin](https://www.instagram.com/agencebazin) | Image de marque épurée et vintage, univers cohérent |
 
+**Comptes de ma niche (idées de contenu, analysés le 25/10/2026)**
+
+| Compte | Ce que j'en retiens |
+|---|---|
+| [@mallaury_d](https://www.instagram.com/mallaury_d) | Experte locale + UGC à Toulon : modèle pour mon compte perso (listes, POV, concours, appel aux pros) |
+| [@mon_petit_chamonix](https://www.instagram.com/mon_petit_chamonix) | Experte locale en station : listes d'adresses, réels d'ambiance, séries |
+| [@limitlesssecrets](https://www.instagram.com/limitlesssecrets) | Info « à ne pas manquer », lieux secrets, upsell en une ligne |
+| [@collabsbymarie](https://www.instagram.com/collabsbymarie) | Tutos à enregistrer (mais public de créatrices : à éviter comme cible) |
+
+Image de marque v1 (à valider) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
+
 Fichiers liés :
 - Agent : `.claude/agents/brand-inspiration.md`
 - Prompt détaillé : `prompts/analyse-comptes-june.md`
@@ -219,3 +230,4 @@ Fichiers liés :
 | 25/10/2026 | Création du fichier à partir de la discussion de cadrage. |
 | 25/10/2026 | Ajout des comptes de référence, de l'agent `brand-inspiration`, du prompt d'analyse et du schéma Supabase. |
 | 25/10/2026 | Première analyse : audit June, références, synthèse stratégique Alpe d'Huez. Chiffres des comptes mis à jour, 2 nouvelles questions ouvertes. |
+| 25/10/2026 | Décisions : CM au cas par cas, tarifs reportés, Blondie comme source d'inspiration. Analyse de 5 comptes de la niche et image de marque v1. |

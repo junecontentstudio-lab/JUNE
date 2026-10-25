@@ -1,35 +1,436 @@
 {
  "brand_traits": [
-  {"source": "junecontentstudio", "trait": "Fil rouge « ressentir pour donner envie de vivre »", "category": "ton", "decision": "garder", "example_observed": "Publications du 19 et du 8 octobre 2026", "adaptation_for_june": "Devient la promesse officielle"},
-  {"source": "junecontentstudio", "trait": "Ton humain et autodérision", "category": "ton", "decision": "garder", "example_observed": "« je vous ai pas montré la cheminée oupss »", "adaptation_for_june": "Tel quel, avec des légendes plus courtes"},
-  {"source": "junecontentstudio", "trait": "Collab systématique avec le lieu", "category": "format", "decision": "garder", "example_observed": "Collabs : 54 J'aime en moyenne contre 32 en solo", "adaptation_for_june": "Chaque réel client en collab (lieu + compte perso)"},
-  {"source": "blondie.communication", "trait": "Chiffre-preuve en bio", "category": "preuve", "decision": "adapter", "example_observed": "« + de 25 établissements nous font confiance »", "adaptation_for_june": "« 3 places clients fondateurs cet hiver », puis « X lieux de l'Alpe d'Huez »"},
-  {"source": "blondie.communication", "trait": "Cas client structuré objectif → action → livrable", "category": "preuve", "decision": "adapter", "example_observed": "Hôtel Les Flocons, mission urgente pour un festival", "adaptation_for_june": "Carrousel de 5 slides dans la voix de June, avis client en dernière slide"},
-  {"source": "blondie.communication", "trait": "Offre produit nommée", "category": "offre", "decision": "adapter", "example_observed": "Altitude Story : 1 journée = film + 5 à 10 réels", "adaptation_for_june": "Pack renommé, ex. « L'Immersion June » : 1 journée = 8 réels + 30 photos"},
-  {"source": "blondie.communication", "trait": "Géolocalisation et hashtags locaux", "category": "visibilite", "decision": "garder", "example_observed": "30/30 posts géolocalisés aux 2 Alpes, #les2alpes ×13", "adaptation_for_june": "#alpedhuez et lieu tagué sur chaque post de l'hiver"},
-  {"source": "lina.michy", "trait": "Séries numérotées par lieu ou par pièce", "category": "format", "decision": "adapter", "example_observed": "« Faceless B-roll, édition chambre / salle de bain »", "adaptation_for_june": "« Chambre avec vue, épisode 1, 2, 3… »"},
-  {"source": "lina.michy", "trait": "Contenu sans visage centré sur le lieu", "category": "visuel", "decision": "adapter", "example_observed": "Plans d'ambiance au bord de la piscine (2 035 J'aime)", "adaptation_for_june": "Mains, silhouettes, June de dos : faisable seule avec trépied"},
-  {"source": "lina.michy", "trait": "Mot-clé en commentaire pour recevoir une ressource", "category": "conversion", "decision": "adapter", "example_observed": "Carrousel pitch : 252 commentaires", "adaptation_for_june": "« Commente HIVER et je t'envoie les 5 contenus à publier avant Noël »"},
-  {"source": "lina.michy", "trait": "Contenu destiné aux créateurs (matériel, AD)", "category": "cible", "decision": "eviter", "example_observed": "Nombreux posts matériel sponsorisés", "adaptation_for_june": "Attire des créatrices, pas des hôteliers"},
-  {"source": "lina.michy", "trait": "Légendes longues façon article", "category": "ton", "decision": "eviter", "example_observed": "Médiane de ~1 500 caractères (Blondie ~900)", "adaptation_for_june": "2 à 4 phrases maximum"},
-  {"source": "agencebazin", "trait": "Zéro hashtag, légendes courtes", "category": "visuel", "decision": "adapter", "example_observed": "0/30 posts avec hashtags", "adaptation_for_june": "3 à 5 hashtags précis et locaux maximum"},
-  {"source": "agencebazin", "trait": "Backstages de tournage", "category": "format", "decision": "garder", "example_observed": "Record à 1 569 J'aime", "adaptation_for_june": "« Je tourne seule chez [lieu] » : signature solo + trépied"},
-  {"source": "agencebazin", "trait": "Cohérence de grille par tons similaires", "category": "visuel", "decision": "garder", "example_observed": "« collections aux tons similaires »", "adaptation_for_june": "1 preset June unique sur le compte studio"},
-  {"source": "agencebazin", "trait": "Offre mensuelle glissée en une ligne", "category": "offre", "decision": "adapter", "example_observed": "« 2 contenus / semaine, offre mensuelle »", "adaptation_for_june": "Forfait mensuel annoncé simplement en légende et en story à la une"},
-  {"source": "blondie.communication", "trait": "Positionnement CM complet en équipe", "category": "offre", "decision": "eviter", "example_observed": "24 comptes animés, équipe de 4", "adaptation_for_june": "Pas tenable seule avec un emploi à 7h30"},
-  {"source": "montevents_officiel", "trait": "Récap mensuel en carrousel", "category": "format", "decision": "adapter", "example_observed": "« Dump du mois »", "adaptation_for_june": "« Ma semaine à l'Alpe d'Huez »"},
-  {"source": "mon_petit_chamonix", "trait": "Série locale à budget", "category": "format", "decision": "adapter", "example_observed": "« Une journée à Chamonix avec 50 € » (1 124 J'aime)", "adaptation_for_june": "Compte perso : « Une après-midi à l'Alpe d'Huez après le boulot »"}
+  {
+   "source": "junecontentstudio",
+   "trait": "Fil rouge « ressentir pour donner envie de vivre »",
+   "category": "ton",
+   "decision": "garder",
+   "example_observed": "Publications du 19 et du 8 octobre 2026",
+   "adaptation_for_june": "Devient la promesse officielle"
+  },
+  {
+   "source": "junecontentstudio",
+   "trait": "Ton humain et autodérision",
+   "category": "ton",
+   "decision": "garder",
+   "example_observed": "« je vous ai pas montré la cheminée oupss »",
+   "adaptation_for_june": "Tel quel, avec des légendes plus courtes"
+  },
+  {
+   "source": "junecontentstudio",
+   "trait": "Collab systématique avec le lieu",
+   "category": "format",
+   "decision": "garder",
+   "example_observed": "Collabs : 54 J'aime en moyenne contre 32 en solo",
+   "adaptation_for_june": "Chaque réel client en collab (lieu + compte perso)"
+  },
+  {
+   "source": "blondie.communication",
+   "trait": "Chiffre-preuve en bio",
+   "category": "preuve",
+   "decision": "adapter",
+   "example_observed": "« + de 25 établissements nous font confiance »",
+   "adaptation_for_june": "« 3 places clients fondateurs cet hiver », puis « X lieux de l'Alpe d'Huez »"
+  },
+  {
+   "source": "blondie.communication",
+   "trait": "Cas client structuré objectif → action → livrable",
+   "category": "preuve",
+   "decision": "adapter",
+   "example_observed": "Hôtel Les Flocons, mission urgente pour un festival",
+   "adaptation_for_june": "Carrousel de 5 slides dans la voix de June, avis client en dernière slide"
+  },
+  {
+   "source": "blondie.communication",
+   "trait": "Offre produit nommée",
+   "category": "offre",
+   "decision": "adapter",
+   "example_observed": "Altitude Story : 1 journée = film + 5 à 10 réels",
+   "adaptation_for_june": "Pack renommé, ex. « L'Immersion June » : 1 journée = 8 réels + 30 photos"
+  },
+  {
+   "source": "blondie.communication",
+   "trait": "Géolocalisation et hashtags locaux",
+   "category": "visibilite",
+   "decision": "garder",
+   "example_observed": "30/30 posts géolocalisés aux 2 Alpes, #les2alpes ×13",
+   "adaptation_for_june": "#alpedhuez et lieu tagué sur chaque post de l'hiver"
+  },
+  {
+   "source": "lina.michy",
+   "trait": "Séries numérotées par lieu ou par pièce",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "« Faceless B-roll, édition chambre / salle de bain »",
+   "adaptation_for_june": "« Chambre avec vue, épisode 1, 2, 3… »"
+  },
+  {
+   "source": "lina.michy",
+   "trait": "Contenu sans visage centré sur le lieu",
+   "category": "visuel",
+   "decision": "adapter",
+   "example_observed": "Plans d'ambiance au bord de la piscine (2 035 J'aime)",
+   "adaptation_for_june": "Mains, silhouettes, June de dos : faisable seule avec trépied"
+  },
+  {
+   "source": "lina.michy",
+   "trait": "Mot-clé en commentaire pour recevoir une ressource",
+   "category": "conversion",
+   "decision": "adapter",
+   "example_observed": "Carrousel pitch : 252 commentaires",
+   "adaptation_for_june": "« Commente HIVER et je t'envoie les 5 contenus à publier avant Noël »"
+  },
+  {
+   "source": "lina.michy",
+   "trait": "Contenu destiné aux créateurs (matériel, AD)",
+   "category": "cible",
+   "decision": "eviter",
+   "example_observed": "Nombreux posts matériel sponsorisés",
+   "adaptation_for_june": "Attire des créatrices, pas des hôteliers"
+  },
+  {
+   "source": "lina.michy",
+   "trait": "Légendes longues façon article",
+   "category": "ton",
+   "decision": "eviter",
+   "example_observed": "Médiane de ~1 500 caractères (Blondie ~900)",
+   "adaptation_for_june": "2 à 4 phrases maximum"
+  },
+  {
+   "source": "agencebazin",
+   "trait": "Zéro hashtag, légendes courtes",
+   "category": "visuel",
+   "decision": "adapter",
+   "example_observed": "0/30 posts avec hashtags",
+   "adaptation_for_june": "3 à 5 hashtags précis et locaux maximum"
+  },
+  {
+   "source": "agencebazin",
+   "trait": "Backstages de tournage",
+   "category": "format",
+   "decision": "garder",
+   "example_observed": "Record à 1 569 J'aime",
+   "adaptation_for_june": "« Je tourne seule chez [lieu] » : signature solo + trépied"
+  },
+  {
+   "source": "agencebazin",
+   "trait": "Cohérence de grille par tons similaires",
+   "category": "visuel",
+   "decision": "garder",
+   "example_observed": "« collections aux tons similaires »",
+   "adaptation_for_june": "1 preset June unique sur le compte studio"
+  },
+  {
+   "source": "agencebazin",
+   "trait": "Offre mensuelle glissée en une ligne",
+   "category": "offre",
+   "decision": "adapter",
+   "example_observed": "« 2 contenus / semaine, offre mensuelle »",
+   "adaptation_for_june": "Forfait mensuel annoncé simplement en légende et en story à la une"
+  },
+  {
+   "source": "blondie.communication",
+   "trait": "Positionnement CM complet en équipe",
+   "category": "offre",
+   "decision": "eviter",
+   "example_observed": "24 comptes animés, équipe de 4",
+   "adaptation_for_june": "Pas tenable seule avec un emploi à 7h30"
+  },
+  {
+   "source": "montevents_officiel",
+   "trait": "Récap mensuel en carrousel",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "« Dump du mois »",
+   "adaptation_for_june": "« Ma semaine à l'Alpe d'Huez »"
+  },
+  {
+   "source": "mon_petit_chamonix",
+   "trait": "Série locale à budget",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "« Une journée à Chamonix avec 50 € » (1 124 J'aime)",
+   "adaptation_for_june": "Compte perso : « Une après-midi à l'Alpe d'Huez après le boulot »"
+  },
+  {
+   "source": "mallaury_d",
+   "trait": "POV gourmand en une ligne",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "Record à 4 430 J'aime",
+   "adaptation_for_june": "POV immersif court dans un lieu client"
+  },
+  {
+   "source": "mallaury_d",
+   "trait": "Appel aux pros en commentaire",
+   "category": "conversion",
+   "decision": "adapter",
+   "example_observed": "« Les pros du Var, présentez-vous » : 129 commentaires",
+   "adaptation_for_june": "« Pros de l'Alpe d'Huez, c'est à vous »"
+  },
+  {
+   "source": "mallaury_d",
+   "trait": "Concours en duo avec un commerce",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "222 à 441 commentaires",
+   "adaptation_for_june": "Concours avec un client fondateur, sur le compte perso"
+  },
+  {
+   "source": "mallaury_d",
+   "trait": "Une casquette par compte",
+   "category": "offre",
+   "decision": "garder",
+   "example_observed": "Comptes séparés média / UGC",
+   "adaptation_for_june": "June = vitrine pro, @ludii_cdt = média local"
+  },
+  {
+   "source": "mon_petit_chamonix",
+   "trait": "Listes d'adresses",
+   "category": "format",
+   "decision": "garder",
+   "example_observed": "« 5 tables incontournables » : 1 647",
+   "adaptation_for_june": "« 5 tables de l'Alpe d'Huez »"
+  },
+  {
+   "source": "mon_petit_chamonix",
+   "trait": "Réel d'ambiance + légende courte et émotionnelle",
+   "category": "ton",
+   "decision": "garder",
+   "example_observed": "Le calme de la station : 1 406",
+   "adaptation_for_june": "« Quand la station se réveille… »"
+  },
+  {
+   "source": "mon_petit_chamonix",
+   "trait": "Question en fin de légende",
+   "category": "ton",
+   "decision": "garder",
+   "example_observed": "Presque chaque post",
+   "adaptation_for_june": "Toujours une question sur le perso"
+  },
+  {
+   "source": "limitlesssecrets",
+   "trait": "Info datée « à ne pas manquer »",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "Monument illuminé un soir : 8 116",
+   "adaptation_for_june": "« À ne pas manquer à l'Alpe cette semaine »"
+  },
+  {
+   "source": "limitlesssecrets",
+   "trait": "Upsell en une ligne",
+   "category": "conversion",
+   "decision": "garder",
+   "example_observed": "« Tu cherches un photographe ? Écris-moi »",
+   "adaptation_for_june": "« Votre lieu mérite ça ? Écrivez-moi »"
+  },
+  {
+   "source": "collabsbymarie",
+   "trait": "Tuto à enregistrer",
+   "category": "format",
+   "decision": "adapter",
+   "example_observed": "Tutos photo : 897 à 918",
+   "adaptation_for_june": "Pédago tournée vers les pros, pas vers les créatrices"
+  },
+  {
+   "source": "collabsbymarie",
+   "trait": "Contenu pour créatrices qui veulent des collabs",
+   "category": "cible",
+   "decision": "eviter",
+   "example_observed": "Formation vendue aux créatrices",
+   "adaptation_for_june": "Attirerait des concurrentes"
+  },
+  {
+   "source": "mon_petit_chamonix",
+   "trait": "Publier 3 à 5 fois par semaine",
+   "category": "visibilite",
+   "decision": "garder",
+   "example_observed": "Tous les comptes de la niche",
+   "adaptation_for_june": "2-3/sem sur June, 3-4/sem sur le perso"
+  }
  ],
  "content_ideas": [
-  {"title": "Arrivée à la station, valise + trépied", "format": "POV", "hook": "Saison n°X à l'Alpe d'Huez… mais cette fois, je viens bosser pour vous", "inspired_by": "junecontentstudio", "target": "tous"},
-  {"title": "Chambre d'hôtel sans visage, du réveil au balcon", "format": "decouverte", "hook": "Chambre avec vue, épisode 1", "inspired_by": "lina.michy", "target": "hotel"},
-  {"title": "Tourner seule un réel chez un client, en accéléré", "format": "coulisses", "hook": "Pas d'équipe, juste moi, un trépied et 2 heures", "inspired_by": "agencebazin", "target": "tous"},
-  {"title": "Photo du patron vs photo June", "format": "avant-apres", "hook": "Même lieu, même jour. Ce qui change tout", "inspired_by": null, "target": "tous"},
-  {"title": "Après-midi après le boulot dans une boutique ou un café", "format": "lifestyle", "hook": "14h30, fin du service. Direction…", "inspired_by": "mon_petit_chamonix", "target": "boutique"},
-  {"title": "Cas client Pasithea en 5 slides", "format": "carrousel", "hook": "Elle n'avait plus le temps de poster. Voilà ce qu'on a fait", "inspired_by": "blondie.communication", "target": "tous"},
-  {"title": "3 adresses secrètes de l'Alpe d'Huez", "format": "decouverte", "hook": "J'y fais ma Xᵉ saison, voilà mes 3 adresses secrètes", "inspired_by": null, "target": "tous"},
-  {"title": "Les 4 plans qui manquent aux comptes d'hôtel de station", "format": "pedagogie", "hook": "Si vous avez un hôtel ici, il vous manque sûrement ces plans", "inspired_by": "lina.michy", "target": "hotel"},
-  {"title": "Préparer un tournage : moodboard, liste de plans, lumière", "format": "coulisses", "hook": "Avant de filmer votre lieu, je fais toujours ça", "inspired_by": "blondie.communication", "target": "tous"},
-  {"title": "Ma première semaine à l'Alpe d'Huez", "format": "carrousel", "hook": "7 jours, 4 lieux, 1 trépied", "inspired_by": "montevents_officiel", "target": "tous"}
+  {
+   "title": "Arrivée à la station, valise + trépied",
+   "format": "POV",
+   "hook": "Saison n°X à l'Alpe d'Huez… mais cette fois, je viens bosser pour vous",
+   "inspired_by": "junecontentstudio",
+   "target": "tous"
+  },
+  {
+   "title": "Chambre d'hôtel sans visage, du réveil au balcon",
+   "format": "decouverte",
+   "hook": "Chambre avec vue, épisode 1",
+   "inspired_by": "lina.michy",
+   "target": "hotel"
+  },
+  {
+   "title": "Tourner seule un réel chez un client, en accéléré",
+   "format": "coulisses",
+   "hook": "Pas d'équipe, juste moi, un trépied et 2 heures",
+   "inspired_by": "agencebazin",
+   "target": "tous"
+  },
+  {
+   "title": "Photo du patron vs photo June",
+   "format": "avant-apres",
+   "hook": "Même lieu, même jour. Ce qui change tout",
+   "inspired_by": null,
+   "target": "tous"
+  },
+  {
+   "title": "Après-midi après le boulot dans une boutique ou un café",
+   "format": "lifestyle",
+   "hook": "14h30, fin du service. Direction…",
+   "inspired_by": "mon_petit_chamonix",
+   "target": "boutique"
+  },
+  {
+   "title": "Cas client Pasithea en 5 slides",
+   "format": "carrousel",
+   "hook": "Elle n'avait plus le temps de poster. Voilà ce qu'on a fait",
+   "inspired_by": "blondie.communication",
+   "target": "tous"
+  },
+  {
+   "title": "3 adresses secrètes de l'Alpe d'Huez",
+   "format": "decouverte",
+   "hook": "J'y fais ma Xᵉ saison, voilà mes 3 adresses secrètes",
+   "inspired_by": null,
+   "target": "tous"
+  },
+  {
+   "title": "Les 4 plans qui manquent aux comptes d'hôtel de station",
+   "format": "pedagogie",
+   "hook": "Si vous avez un hôtel ici, il vous manque sûrement ces plans",
+   "inspired_by": "lina.michy",
+   "target": "hotel"
+  },
+  {
+   "title": "Préparer un tournage : moodboard, liste de plans, lumière",
+   "format": "coulisses",
+   "hook": "Avant de filmer votre lieu, je fais toujours ça",
+   "inspired_by": "blondie.communication",
+   "target": "tous"
+  },
+  {
+   "title": "Ma première semaine à l'Alpe d'Huez",
+   "format": "carrousel",
+   "hook": "7 jours, 4 lieux, 1 trépied",
+   "inspired_by": "montevents_officiel",
+   "target": "tous"
+  },
+  {
+   "title": "POV première matinée dans un chalet",
+   "format": "POV",
+   "hook": "POV : ta première matinée dans ce chalet",
+   "inspired_by": "mallaury_d",
+   "target": "hebergement",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Ce qu'il faut filmer dans un hôtel de station",
+   "format": "pedagogie",
+   "hook": "Votre hôtel a déjà des photos de chambre. Voilà ce qui lui manque",
+   "inspired_by": "collabsbymarie",
+   "target": "hotel",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Testez votre compte en 30 secondes",
+   "format": "carrousel",
+   "hook": "Ouvrez votre profil. Regardez vos 9 derniers posts",
+   "inspired_by": "collabsbymarie",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Une matinée, 8 réels",
+   "format": "coulisses",
+   "hook": "Une matinée, 8 réels. Voilà ce que ça donne",
+   "inspired_by": "travelsbytrine",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Pros de l'Alpe d'Huez, présentez-vous",
+   "format": "appel-pros",
+   "hook": "Hôtels, chalets, boutiques de l'Alpe : c'est à vous",
+   "inspired_by": "mallaury_d",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "Ma première saison June en 30 secondes",
+   "format": "recap",
+   "hook": "Ma première saison June à l'Alpe d'Huez",
+   "inspired_by": "travelsbytrine",
+   "target": "tous",
+   "for_account": "junecontentstudio"
+  },
+  {
+   "title": "5 tables de l'Alpe d'Huez",
+   "format": "liste",
+   "hook": "5 tables de l'Alpe d'Huez que je conseille à tout le monde",
+   "inspired_by": "mon_petit_chamonix",
+   "target": "restaurant",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "Série Après le service",
+   "format": "serie",
+   "hook": "14h30, fin du service. On fait quoi ?",
+   "inspired_by": "mon_petit_chamonix",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "La station se réveille",
+   "format": "ambiance",
+   "hook": "Quand la station se réveille…",
+   "inspired_by": "mon_petit_chamonix",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "À ne pas manquer à l'Alpe cette semaine",
+   "format": "info-datee",
+   "hook": "À ne pas manquer à l'Alpe d'Huez cette semaine",
+   "inspired_by": "limitlesssecrets",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "J'ai testé la nouveauté de la saison",
+   "format": "decouverte",
+   "hook": "J'ai testé la nouveauté dont tout le monde parle à l'Alpe",
+   "inspired_by": "mon_petit_chamonix",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "Concours avec un client fondateur",
+   "format": "concours",
+   "hook": "On vous fait gagner…",
+   "inspired_by": "mallaury_d",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "L'Alpe d'Huez, c'est que du ski ?",
+   "format": "contre-cliche",
+   "hook": "On m'a dit qu'il n'y avait rien à faire à l'Alpe hors ski…",
+   "inspired_by": "mallaury_d",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  },
+  {
+   "title": "Le coin secret de l'Alpe",
+   "format": "secret",
+   "hook": "Le coin de l'Alpe que même les saisonniers ne connaissent pas",
+   "inspired_by": "limitlesssecrets",
+   "target": "tous",
+   "for_account": "ludii_cdt"
+  }
  ]
 }
