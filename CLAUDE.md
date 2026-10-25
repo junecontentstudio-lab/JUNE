@@ -193,8 +193,26 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 
 ---
 
-## 12. Journal de mise à jour
+## 12. Comptes de référence
+
+| Rôle | Compte | Ce que je veux en tirer |
+|---|---|---|
+| Mon compte (à auditer) | [@junecontentstudio](https://www.instagram.com/junecontentstudio) | Diagnostic honnête, priorités de correction |
+| Référence stratégie | [@blondie.communication](https://www.instagram.com/blondie.communication) | Stratégie claire, message, façon de se vendre, communication montagne/station |
+| Référence idées | [@lina.michy](https://www.instagram.com/lina.michy) | Idées de contenu, formats, hooks (même domaine que moi) |
+| Référence branding | [@agencebazin](https://www.instagram.com/agencebazin) | Image de marque épurée et vintage, univers cohérent |
+
+Fichiers liés :
+- Agent : `.claude/agents/brand-inspiration.md`
+- Prompt détaillé : `prompts/analyse-comptes-june.md`
+- Base de données : `supabase/schema.sql` (à exécuter une fois dans Supabase)
+- Rapports : dossier `rapports/`
+
+---
+
+## 13. Journal de mise à jour
 
 | Date | Ce qui a changé |
 |---|---|
 | 25/10/2026 | Création du fichier à partir de la discussion de cadrage. |
+| 25/10/2026 | Ajout des comptes de référence, de l'agent `brand-inspiration`, du prompt d'analyse et du schéma Supabase. |
