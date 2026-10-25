@@ -178,6 +178,7 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - Tâche 6 : Reporting client.
 - Tâche 7 : Programmation de publications.
 - Tâche 8 : Aide au montage (à explorer, via terminal si besoin d'accéder à mes fichiers locaux).
+- **Tâche 9 (prochain chantier, décidé le 25/10/2026) : création de contenu vidéo** : envoyer mes rushs et obtenir des réels montés avec **HyperFrames** (HTML → MP4, framework open source de HeyGen, avec ses skills) à l'identité June. Test de faisabilité du 25/10 : `npm install hyperframes` (v0.8.198) fonctionne, Node 22 + ffmpeg + Chrome présents, un rendu de 10 s en 1920×1080 prend ~17 s. **Piège** : les modèles chargent GSAP depuis `cdn.jsdelivr.net` (bloqué par le réseau) : utiliser une copie locale (`npm install gsap`). Manquants optionnels : `whisper-cpp` (transcription pour sous-titres). Aucun connecteur (Google Drive, etc.) disponible dans mon espace : mode d'envoi des rushs à choisir.
 
 ---
 
@@ -244,3 +245,4 @@ Fichiers liés :
 | 25/10/2026 | Analyse de 5 agences qui vendent de la com' aux pros du tourisme, stratégie de contenu (4 rayons) et identité de marque v2 (palette, polices, tampon). Données chargées dans Supabase. |
 | 25/10/2026 | Kie.AI testé (clé OK, crédits rechargés), kit de marque en PNG, analyse du feed, calendrier de contenu du 26/10 au 29/11. |
 | 25/10/2026 | Création de l'agent `idees-contenu` (recherche d'idées d'après les concurrents), du lancement de conversation dédiée et du script d'ajout d'idées dans Supabase. |
+| 25/10/2026 | Prochain chantier décidé : montage de réels avec HyperFrames à partir de mes rushs (tâche 9). Faisabilité testée. |
