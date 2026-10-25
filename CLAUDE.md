@@ -68,8 +68,8 @@ Du contenu qui fait ressortir l'expérience du lieu et donne envie de la vivre. 
 Le salon a été trouvé grâce à une **offre découverte** (prestation offerte) que j'avais faite à l'époque.
 
 ### Présence en ligne
-- Compte **June** (studio) : ~151 abonnés. Pas assez optimisé ni clair.
-- Compte **perso** : ~6 000 abonnés, contenu lifestyle, pas assez clair.
+- Compte **June** (studio, @junecontentstudio) : 262 abonnés au 25/10/2026. Pas assez optimisé ni clair (voir `rapports/audit-june-2026-10-25.md`).
+- Compte **perso** (@ludii_cdt) : 6 398 abonnés au 25/10/2026, contenu lifestyle / saisonnière, déjà relié au studio.
 - **Portfolio** : existe (réels + shootings), mais pas assez clair ni optimisé.
 
 ---
@@ -161,13 +161,12 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 1. Produire des **audits de comptes** (prospects, clients, concurrents).
 2. Faire de la **recherche d'idées de contenu** : reels et formats qui fonctionnent pour des lieux similaires, hashtags, comptes de référence.
 
-**À définir avec moi avant de coder :**
-- Quel jeu de comptes analyser en premier (cas test).
-- Format du livrable d'audit (document, page Notion, fichier .md, PDF).
-- Quelles métriques comptent pour moi (engagement, fréquence, formats, hooks, légendes, cohérence visuelle).
-- Vérifier que le connecteur Apify est bien disponible dans mon espace Claude Code web.
-- Limites et coûts Apify à connaître avant de lancer des recherches en masse.
-- Respect des conditions d'utilisation des plateformes : ne collecter que des données publiques.
+**Avancement (25/10/2026)**
+- Premier cas test fait : audit de mon compte + 3 références + 4 comptes montagne. Rapports `.md` dans `rapports/`.
+- Apify fonctionne via `APIFY_TOKEN` (plan gratuit : 5 $ / mois). Coût réel de la première analyse : 0,41 $.
+- Outils Apify utilisés : `instagram-profile-scraper` et `instagram-post-scraper` (données publiques uniquement). La recherche de comptes par mot-clé d'Apify donne de mauvais résultats.
+- Réseau de l'environnement : `cdninstagram.com` (images) et la plupart des sites web sont bloqués. L'analyse visuelle de la grille reste à faire.
+- Supabase : tables à créer en exécutant `supabase/schema.sql`, puis charger les données avec `python3 scripts/charger_supabase.py 2026-10-25`.
 
 ### Tâches suivantes (à détailler au fur et à mesure)
 - Tâche 2 : Générateur d'idées de contenu par lieu (type d'établissement + ambiance + cible → 15 idées POV, lifestyle, découverte).
@@ -190,6 +189,8 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - [ ] Mes tarifs définitifs : pack d'entrée après la phase fondateurs, forfait mensuel.
 - [ ] Ma trésorerie disponible.
 - [ ] Quels connecteurs sont réellement disponibles dans mon Claude Code web ?
+- [ ] Community management : oui ou non ? (mon post du 16/07 dit non, ce fichier dit « potentiellement ». Recommandation du mentor : forfait mensuel de création, sans CM complet.)
+- [ ] Blondie Communication (Les 2 Alpes) : concurrente ou partenaire ?
 
 ---
 
@@ -216,3 +217,4 @@ Fichiers liés :
 |---|---|
 | 25/10/2026 | Création du fichier à partir de la discussion de cadrage. |
 | 25/10/2026 | Ajout des comptes de référence, de l'agent `brand-inspiration`, du prompt d'analyse et du schéma Supabase. |
+| 25/10/2026 | Première analyse : audit June, références, synthèse stratégique Alpe d'Huez. Chiffres des comptes mis à jour, 2 nouvelles questions ouvertes. |

@@ -1,0 +1,720 @@
+{
+ "accounts": [
+  {
+   "handle": "junecontentstudio",
+   "url": "https://www.instagram.com/junecontentstudio",
+   "role": "own",
+   "why": "Diagnostic honnête, priorités de correction"
+  },
+  {
+   "handle": "blondie.communication",
+   "url": "https://www.instagram.com/blondie.communication",
+   "role": "strategy",
+   "why": "Stratégie, message, façon de se vendre, communication montagne/station"
+  },
+  {
+   "handle": "lina.michy",
+   "url": "https://www.instagram.com/lina.michy",
+   "role": "ideas",
+   "why": "Idées de contenu, formats, hooks"
+  },
+  {
+   "handle": "agencebazin",
+   "url": "https://www.instagram.com/agencebazin",
+   "role": "branding",
+   "why": "Image de marque épurée, univers cohérent"
+  },
+  {
+   "handle": "emelinelambreth",
+   "url": "https://www.instagram.com/emelinelambreth",
+   "role": "mountain",
+   "why": "Photographe en station (Les 2 Alpes), partenaire de Blondie"
+  },
+  {
+   "handle": "mon_petit_chamonix",
+   "url": "https://www.instagram.com/mon_petit_chamonix",
+   "role": "mountain",
+   "why": "Experte locale Chamonix : modèle pour le compte perso"
+  },
+  {
+   "handle": "oralise.communication",
+   "url": "https://www.instagram.com/oralise.communication",
+   "role": "mountain",
+   "why": "CM hébergement touristique, restos, outdoor"
+  },
+  {
+   "handle": "montevents_officiel",
+   "url": "https://www.instagram.com/montevents_officiel",
+   "role": "mountain",
+   "why": "Social media agency French Alps, outdoor"
+  },
+  {
+   "handle": "ludii_cdt",
+   "url": "https://www.instagram.com/ludii_cdt",
+   "role": "other",
+   "why": "Compte perso de June (non audité en détail)"
+  }
+ ],
+ "snapshots": [
+  {
+   "handle": "junecontentstudio",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Ludivine | Content Expérience Studio",
+   "bio": "On fait parler de vous à l’Alpe d’huez ❄️\n🏔️ Pour les hébergement & expériences touristiques\n🫴🏼 + visible et + présent sur vos réseaux\nDécouvrez June ↓",
+   "bio_link": "https://www.junecontentstudio.fr/",
+   "category": "Entrepreneur",
+   "followers": 262,
+   "following": 196,
+   "posts_count": 67,
+   "posts_analyzed": 30,
+   "highlights": {
+    "count": 6
+   },
+   "source": "apify",
+   "avg_likes": 40.2,
+   "avg_comments": 1.9,
+   "engagement_rate": 16.1,
+   "posts_per_week": 0.77,
+   "format_mix": {
+    "Sidecar": 14,
+    "Video": 16
+   },
+   "top_hashtags": {
+    "creationdecontenu": 17,
+    "experience": 12,
+    "tourisme": 11,
+    "communication": 10,
+    "hospitality": 6,
+    "contentexperience": 6,
+    "photographer": 5,
+    "contentcreator": 5,
+    "junecontentstudio": 3,
+    "experienceclient": 3
+   },
+   "raw": {
+    "likes_visibles": "29/30",
+    "median_likes": 21,
+    "collabs": 12,
+    "periode": [
+     "2026-01-23",
+     "2026-10-21"
+    ]
+   }
+  },
+  {
+   "handle": "blondie.communication",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Blondie | Community Manager 🌻",
+   "bio": "✨ Agence de communication aux 2 Alpes\n📱 Réseaux • Photo • Vidéo • Graphisme • Web\n🤝 + de 25 établissements nous font confiance\n📍 3 rue des Sagnes",
+   "bio_link": "https://youtu.be/iq7X1hwgfYU?is=rGu5wcoxuMHa3Zo2",
+   "category": "Social Media Agency",
+   "followers": 875,
+   "following": 416,
+   "posts_count": 107,
+   "posts_analyzed": 30,
+   "highlights": {
+    "count": 1
+   },
+   "source": "apify",
+   "avg_likes": 137,
+   "avg_comments": 5.0,
+   "engagement_rate": 16.2,
+   "posts_per_week": 0.69,
+   "format_mix": {
+    "Sidecar": 18,
+    "Image": 5,
+    "Video": 7
+   },
+   "top_hashtags": {
+    "les2alpes": 13,
+    "2alpes": 12,
+    "agencedecommunication": 9,
+    "creationdecontenu": 7,
+    "communicationmontagne": 7,
+    "branding": 6,
+    "communitymanagement": 6,
+    "communitymanager": 4,
+    "communication": 3,
+    "entrepreneuriat": 3
+   },
+   "raw": {
+    "likes_visibles": "13/30",
+    "median_likes": 120,
+    "collabs": 12,
+    "periode": [
+     "2025-12-21",
+     "2026-10-23"
+    ]
+   }
+  },
+  {
+   "handle": "lina.michy",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "𝗟𝗶𝗻𝗮 | 𝗣𝗵𝗼𝘁𝗼 & 𝗙𝗶𝗹𝗺",
+   "bio": "• Photo & video production\n• Campaigns, reels & stills for luxury resorts \n• Behind the scenes of our shoots ↓\n📍Europe based, available worldwide",
+   "bio_link": "https://linamichkarova.myportfolio.com/",
+   "category": "Photography Videography",
+   "followers": 29010,
+   "following": 68,
+   "posts_count": null,
+   "posts_analyzed": 30,
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "avg_likes": 782.6,
+   "avg_comments": 44.1,
+   "engagement_rate": 2.8,
+   "posts_per_week": 2.41,
+   "format_mix": {
+    "Sidecar": 8,
+    "Video": 22
+   },
+   "top_hashtags": {
+    "resorts": 3,
+    "hotels": 3,
+    "amaran": 3,
+    "videography": 3,
+    "photographer": 2,
+    "production": 2,
+    "photography": 2,
+    "hoteliers": 2,
+    "photoandvideo": 1,
+    "amaranAce25c": 1
+   },
+   "raw": {
+    "likes_visibles": "30/30",
+    "median_likes": 386.0,
+    "collabs": 1,
+    "periode": [
+     "2026-07-25",
+     "2026-10-21"
+    ]
+   }
+  },
+  {
+   "handle": "agencebazin",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "BAZIN | SOCIAL MEDIA & CONTENUS",
+   "bio": "👩🏻‍💻 Maëlle Bazin\nPeut-être ta future social media manager !\nGestion complète des réseaux sociaux, de la stratégie à la création de contenu 📹\nBORDEAUX",
+   "bio_link": "https://linktr.ee/agencebazin",
+   "category": "Social Media Agency",
+   "followers": 1445,
+   "following": 955,
+   "posts_count": 38,
+   "posts_analyzed": 30,
+   "highlights": {
+    "count": 4
+   },
+   "source": "apify",
+   "avg_likes": 191.3,
+   "avg_comments": 5.0,
+   "engagement_rate": 13.6,
+   "posts_per_week": 0.36,
+   "format_mix": {
+    "Sidecar": 19,
+    "Video": 11
+   },
+   "top_hashtags": {},
+   "raw": {
+    "likes_visibles": "15/30",
+    "median_likes": 82,
+    "collabs": 1,
+    "periode": [
+     "2025-02-17",
+     "2026-10-01"
+    ]
+   }
+  },
+  {
+   "handle": "emelinelambreth",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Emeline Lambreth Photographie",
+   "bio": "☀️ Faites rayonner votre univers professionnel \n📸 Des photos lumineuses, colorées & impactantes\n🌍 Les 2 Alpes, en station & partout ailleurs",
+   "bio_link": "http://linktr.ee/emeline.lambreth",
+   "category": "Photographer",
+   "followers": 546,
+   "following": 257,
+   "posts_count": 105,
+   "posts_analyzed": 8,
+   "highlights": {
+    "count": 9
+   },
+   "source": "apify",
+   "avg_likes": 88,
+   "avg_comments": 3,
+   "engagement_rate": 16.7,
+   "posts_per_week": 1.19,
+   "format_mix": {
+    "Sidecar": 7,
+    "Video": 1
+   },
+   "top_hashtags": {
+    "les2alpes": 6,
+    "fujifilm_xseries": 5,
+    "portraitpro": 1,
+    "miniportraits": 1,
+    "agencecommunication": 1,
+    "cocktailtime": 1,
+    "cocktailphotography": 1,
+    "marmotte": 1,
+    "oisanstourisme": 1,
+    "oisansdécouverte": 1
+   },
+   "raw": {
+    "likes_visibles": "1/8",
+    "median_likes": 88,
+    "collabs": 0,
+    "periode": [
+     "2026-08-20",
+     "2026-10-07"
+    ]
+   }
+  },
+  {
+   "handle": "mon_petit_chamonix",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "ᴍᴏɴ ᴘᴇᴛɪᴛ ᴄʜᴀᴍᴏɴɪx  ➡️ Bons plans",
+   "bio": "📍Vallée de Chamonix & Pays du Mont-Blanc\n🕵️‍♀️ Experte locale • bonnes adresses & lieux incontournables\n🤩 Optimisatrice de Com\n🧳 @mon_petit_somewhere",
+   "bio_link": "https://www.monpetitchamonix.com/",
+   "category": "Local & travel website",
+   "followers": 36635,
+   "following": 1566,
+   "posts_count": 1381,
+   "posts_analyzed": 8,
+   "highlights": {
+    "count": 25
+   },
+   "source": "apify",
+   "avg_likes": 556,
+   "avg_comments": 8.4,
+   "engagement_rate": 1.5,
+   "posts_per_week": 5.6,
+   "format_mix": {
+    "Sidecar": 5,
+    "Video": 3
+   },
+   "top_hashtags": {
+    "chamonix": 1,
+    "alps": 1
+   },
+   "raw": {
+    "likes_visibles": "8/8",
+    "median_likes": 497.0,
+    "collabs": 2,
+    "periode": [
+     "2026-10-13",
+     "2026-10-24"
+    ]
+   }
+  },
+  {
+   "handle": "oralise.communication",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Alex | Community Manager Tourisme, Food & Sport Outdoor ☀️",
+   "bio": "Une comm’ qui donne envie de te choisir 🌼\nHébergement touristique, Resto & Sport 🏠🥑🏃🏼‍♀️⛰️\n➕de voyageurs via les réseaux sociaux\n💌 On en discute ? ⤵️",
+   "bio_link": "https://calendly.com/hello-oralise/30min",
+   "category": "None",
+   "followers": 312,
+   "following": 72,
+   "posts_count": null,
+   "posts_analyzed": 8,
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "avg_likes": 332,
+   "avg_comments": 1,
+   "engagement_rate": 106.7,
+   "posts_per_week": 0.89,
+   "format_mix": {
+    "Sidecar": 2,
+    "Video": 6
+   },
+   "top_hashtags": {
+    "tourismefrance": 4,
+    "gite": 3,
+    "tourisme": 2,
+    "coachinsta": 2,
+    "chambredhotesdecharme": 2,
+    "hebergementinsolite": 2,
+    "tipsinstagram": 2,
+    "astucecanva": 1,
+    "chambrehotes": 1,
+    "tourismealpes": 1
+   },
+   "raw": {
+    "likes_visibles": "1/8",
+    "median_likes": 332,
+    "collabs": 1,
+    "periode": [
+     "2026-08-04",
+     "2026-10-06"
+    ]
+   }
+  },
+  {
+   "handle": "montevents_officiel",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Anaïs | Community Manager Montagne",
+   "bio": "🎥 Social Media Agency - French Alps\n🏔️ La com' pour les athlètes & pros de l'outdoor\n📱Réserve ton appel découverte\n👇🏻Télécharge ton guide gratuit",
+   "bio_link": "https://linktr.ee/montevents",
+   "category": "Entrepreneur",
+   "followers": 312,
+   "following": 630,
+   "posts_count": null,
+   "posts_analyzed": 8,
+   "highlights": {
+    "count": null
+   },
+   "source": "apify",
+   "avg_likes": 48.1,
+   "avg_comments": 2.4,
+   "engagement_rate": 16.2,
+   "posts_per_week": 0.95,
+   "format_mix": {
+    "Sidecar": 5,
+    "Image": 1,
+    "Video": 2
+   },
+   "top_hashtags": {
+    "socialmediamanager": 1,
+    "entrepreuneure": 1,
+    "birthday": 1
+   },
+   "raw": {
+    "likes_visibles": "8/8",
+    "median_likes": 21.5,
+    "collabs": 6,
+    "periode": [
+     "2026-08-07",
+     "2026-10-06"
+    ]
+   }
+  },
+  {
+   "handle": "ludii_cdt",
+   "captured_at": "2026-10-25T12:00:00Z",
+   "display_name": "Ludivine | Saisonnière & entrepreneuse",
+   "bio": "Une vie pleine d’expériences 🫴🏼✨\nEntre saison, entrepreneuriat et création de contenu\n+ mon travail @junecontentstudio 📸\nSport | mindset | lifestyle",
+   "bio_link": "http://bio.site/Ludii_cdt",
+   "category": "Entrepreneur",
+   "followers": 6398,
+   "following": 1128,
+   "posts_count": 383,
+   "posts_analyzed": 0,
+   "highlights": {
+    "count": 25
+   },
+   "source": "apify"
+  }
+ ],
+ "audits": [
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "positionnement",
+   "score": 3,
+   "evidence": "Voir rapport",
+   "recommendation": "Mettre 'contenu' et 'Alpe d'Huez' dans le nom affiché, le quoi (photos + réels) dans la bio, trancher la question CM.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "identite_visuelle",
+   "score": 2.5,
+   "evidence": "Voir rapport",
+   "recommendation": "Un preset June unique sur tout le compte (note provisoire, images non vues).",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "image_de_marque_ton",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": "Garder le ton, raccourcir les légendes, relire les fautes.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "contenu",
+   "score": 2.5,
+   "evidence": "Voir rapport",
+   "recommendation": "3 piliers assumés, 2-3 posts/semaine, majorité de réels immersifs.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "preuve_sociale",
+   "score": 2,
+   "evidence": "Voir rapport",
+   "recommendation": "Témoignage Pasithea + avis Google, 1 étude de cas chiffrée, 1 réalisation en station.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "conversion",
+   "score": 2,
+   "evidence": "Voir rapport",
+   "recommendation": "Un seul CTA : écris-moi FONDATEUR ; lien vers une page offre hiver.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "communaute_engagement",
+   "score": 3,
+   "evidence": "Voir rapport",
+   "recommendation": "Collabs systématiques (lieu + compte perso).",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "ancrage_station",
+   "score": 1.5,
+   "evidence": "Voir rapport",
+   "recommendation": "3-4 contenus Alpe d'Huez avant le 17/11, #alpedhuez et lieux tagués.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "junecontentstudio",
+   "audit_date": "2026-10-25",
+   "axis": "lien_compte_perso",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": "1 story/jour 'June en action' sur le perso, réels en collab sur les deux comptes.",
+   "report_path": "rapports/audit-june-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "positionnement",
+   "score": 5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "identite_visuelle",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "image_de_marque_ton",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "contenu",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "preuve_sociale",
+   "score": 5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "conversion",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "communaute_engagement",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "ancrage_station",
+   "score": 5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "blondie.communication",
+   "audit_date": "2026-10-25",
+   "axis": "lien_compte_perso",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "positionnement",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "identite_visuelle",
+   "score": 5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "image_de_marque_ton",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "contenu",
+   "score": 5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "preuve_sociale",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "conversion",
+   "score": 4,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "communaute_engagement",
+   "score": 4.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "lina.michy",
+   "audit_date": "2026-10-25",
+   "axis": "ancrage_station",
+   "score": 1,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "positionnement",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "identite_visuelle",
+   "score": 4.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "image_de_marque_ton",
+   "score": 4.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "contenu",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "preuve_sociale",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "conversion",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "communaute_engagement",
+   "score": 3.5,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  },
+  {
+   "handle": "agencebazin",
+   "audit_date": "2026-10-25",
+   "axis": "ancrage_station",
+   "score": 0,
+   "evidence": "Voir rapport",
+   "recommendation": null,
+   "report_path": "rapports/references-2026-10-25.md"
+  }
+ ]
+}

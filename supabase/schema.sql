@@ -46,7 +46,7 @@ create table if not exists audits (
   snapshot_id     uuid references account_snapshots (id) on delete set null,
   audit_date      date not null default current_date,
   axis            text not null,               -- ex. "positionnement", "identite_visuelle", "conversion"
-  score           smallint check (score between 1 and 5),
+  score           numeric(2,1) check (score between 0 and 5),   -- demi-points acceptés (ex. 2.5)
   evidence        text,                        -- observations précises
   recommendation  text,
   report_path     text,                        -- ex. "rapports/audit-june-2026-10-25.md"
