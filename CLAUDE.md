@@ -224,6 +224,7 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 Image de marque v1 (niche) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
 
 Fichiers liés :
+- Agent recherche d'idées : `.claude/agents/idees-contenu.md` (conversation dédiée : coller `prompts/session-idees-contenu.md` en premier message ; enregistrement des idées : `scripts/ajouter_idees.py`)
 - Agent : `.claude/agents/brand-inspiration.md`
 - Prompt détaillé : `prompts/analyse-comptes-june.md`
 - Base de données : `supabase/schema.sql` (à exécuter une fois dans Supabase)
@@ -242,3 +243,4 @@ Fichiers liés :
 | 25/10/2026 | Retours de June sur les comptes de la niche. Objectif : stratégie de contenu + identité visuelle (palette, typo, styles de réels). |
 | 25/10/2026 | Analyse de 5 agences qui vendent de la com' aux pros du tourisme, stratégie de contenu (4 rayons) et identité de marque v2 (palette, polices, tampon). Données chargées dans Supabase. |
 | 25/10/2026 | Kie.AI testé (clé OK, crédits rechargés), kit de marque en PNG, analyse du feed, calendrier de contenu du 26/10 au 29/11. |
+| 25/10/2026 | Création de l'agent `idees-contenu` (recherche d'idées d'après les concurrents), du lancement de conversation dédiée et du script d'ajout d'idées dans Supabase. |
