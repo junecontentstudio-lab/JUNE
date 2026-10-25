@@ -189,8 +189,9 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - [ ] Mes tarifs définitifs : pack d'entrée après la phase fondateurs, forfait mensuel.
 - [ ] Ma trésorerie disponible.
 - [ ] Quels connecteurs sont réellement disponibles dans mon Claude Code web ?
-- [ ] Community management : oui ou non ? (mon post du 16/07 dit non, ce fichier dit « potentiellement ». Recommandation du mentor : forfait mensuel de création, sans CM complet.)
-- [ ] Blondie Communication (Les 2 Alpes) : concurrente ou partenaire ?
+- [x] Community management : **oui, possible au cas par cas**, selon l'entreprise (décidé le 25/10/2026). Attention à ma capacité (2-3 clients, après-midis seulement).
+- [ ] Tarifs (après fondateurs, forfait mensuel, CM) : **reporté**, on en reparle plus tard.
+- [x] Blondie Communication (Les 2 Alpes) : **on ne l'ignore pas**, on s'inspire de ce qu'elle fait bien (preuve chiffrée, cas clients, offre nommée, ancrage local), sans copier.
 
 ---
 

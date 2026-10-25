@@ -152,7 +152,11 @@
 
 ---
 
-## 8. Décisions à prendre (par toi)
+## 8. Décisions
+
+> **Décisions de June (25/10/2026)** : le CM est **possible au cas par cas** selon l'entreprise. Les **tarifs sont reportés**. Blondie n'est **pas ignorée** : on s'inspire de ce qu'elle fait bien (traits n° 4 à 7 du tableau), sans copier.
+
+Questions posées au départ :
 
 1. **Community management : oui ou non ?** Ton contenu dit non, ton `CLAUDE.md` dit « peut-être ». *Ma recommandation* : non au CM complet, oui à un **forfait mensuel de création** (comme Bazin : X contenus par semaine, livrés prêts à publier, le client poste lui-même). C'est récurrent sans te faire exploser.
 2. **Ton prix après les fondateurs** : il faut le fixer **avant** de prospecter, pour pouvoir l'annoncer (« tarif de lancement 590 €, puis X € »).
