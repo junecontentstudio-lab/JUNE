@@ -209,9 +209,11 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 | Compte | Ce que j'en retiens |
 |---|---|
 | [@mallaury_d](https://www.instagram.com/mallaury_d) | Experte locale + UGC à Toulon : modèle pour mon compte perso (listes, POV, concours, appel aux pros) |
-| [@mon_petit_chamonix](https://www.instagram.com/mon_petit_chamonix) | Experte locale en station : listes d'adresses, réels d'ambiance, séries |
-| [@limitlesssecrets](https://www.instagram.com/limitlesssecrets) | Info « à ne pas manquer », lieux secrets, upsell en une ligne |
-| [@collabsbymarie](https://www.instagram.com/collabsbymarie) | Tutos à enregistrer (mais public de créatrices : à éviter comme cible) |
+| [@mon_petit_chamonix](https://www.instagram.com/mon_petit_chamonix) | **N'aime pas** (June, 25/10) : pas de but derrière. Garder seulement le format liste d'adresses |
+| [@limitlesssecrets](https://www.instagram.com/limitlesssecrets) | Plutôt lifestyle (June, 25/10) : garder seulement l'upsell en une ligne |
+| [@collabsbymarie](https://www.instagram.com/collabsbymarie) | **Aime** (June, 25/10) : beaucoup de contenu à reprendre qui touche notre cible, mais elle vend aussi sa formation aux particuliers (ne pas copier cette partie) |
+
+**But de la prochaine étape (June, 25/10)** : une stratégie de contenu pour June (réels éducatifs, cas clients, etc.), un feed épuré qui donne envie, immersif et qui apporte de la valeur, et notre propre identité : palette de couleurs, design, typographies, styles de réels. Les comptes à étudier en priorité sont ceux qui **vendent de la communication à des entreprises locales, touristiques et hôtels**.
 
 Image de marque v1 (à valider) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
 
@@ -231,3 +233,4 @@ Fichiers liés :
 | 25/10/2026 | Ajout des comptes de référence, de l'agent `brand-inspiration`, du prompt d'analyse et du schéma Supabase. |
 | 25/10/2026 | Première analyse : audit June, références, synthèse stratégique Alpe d'Huez. Chiffres des comptes mis à jour, 2 nouvelles questions ouvertes. |
 | 25/10/2026 | Décisions : CM au cas par cas, tarifs reportés, Blondie comme source d'inspiration. Analyse de 5 comptes de la niche et image de marque v1. |
+| 25/10/2026 | Retours de June sur les comptes de la niche. Objectif : stratégie de contenu + identité visuelle (palette, typo, styles de réels). |
