@@ -12,8 +12,6 @@ s{text-decoration:none;position:relative;color:#BFA387}s:after{content:'';positi
 const html=`<div class="f">
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div class="vig"></div>
-<div style="position:absolute;top:56px;left:76px;font-size:26px;letter-spacing:.06em"><span class="cg" style="font-style:italic;font-size:30px">by</span> <b style="font-weight:600">JUNE</b>CONTENTSTUDIO</div>
-<div style="position:absolute;top:44px;right:72px;border:1.5px solid rgba(243,236,224,.6);border-radius:30px;padding:10px 28px;font-size:20px;letter-spacing:.08em">HIVER <span class="cg" style="font-style:italic;font-size:28px">à</span> L'ALPE <b style="font-weight:600">D'HUEZ</b></div>
 <div style="position:absolute;left:96px;right:90px;top:260px">
  <div class="serif" style="font-size:150px;line-height:1;color:#B38B4D;font-style:italic;font-weight:400">02</div>
  <div style="width:90px;height:2px;background:#B38B4D;margin:26px 0 54px"></div>

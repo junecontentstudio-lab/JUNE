@@ -11,8 +11,6 @@ const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sa
 .tag b{font-weight:500;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}`;
 const html=`<div class="f">
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
-<div style="position:absolute;top:56px;left:76px;font-size:26px;letter-spacing:.06em"><span class="cg" style="font-size:30px">by</span> <b style="font-weight:600">JUNE</b>CONTENTSTUDIO</div>
-<div style="position:absolute;top:44px;right:72px;border:1.5px solid rgba(58,43,34,.55);border-radius:30px;padding:10px 28px;font-size:20px;letter-spacing:.08em">HIVER <span class="cg" style="font-size:28px">à</span> L'ALPE <b style="font-weight:600">D'HUEZ</b></div>
 <div style="position:absolute;right:-40px;top:250px;width:560px;height:1150px;background:#D9C6AE;border-radius:280px 280px 0 0"></div>
 <img src="${IMG}" style="position:absolute;right:20px;bottom:-60px;height:1120px;filter:drop-shadow(0 18px 24px rgba(58,43,34,.28))">
 <div style="position:absolute;left:84px;top:250px;width:560px">
