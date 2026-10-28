@@ -18,10 +18,9 @@ const html=`<div class="f">
  <div style="width:90px;height:2px;background:#A9BDB3;margin:26px 0 54px"></div>
  <div class="serif" style="font-size:84px;line-height:1.08;font-style:italic;font-weight:400">Je suis sur place,</div>
  <div class="serif" style="font-size:84px;line-height:1.08;font-weight:400;margin-top:6px">pas à <s>2 heures</s><br><s>de route</s>.</div>
- <div style="margin-top:80px;font-size:34px;letter-spacing:.02em;line-height:1.5">Je passe chez vous</div>
+ <div style="margin-top:80px;font-size:34px;letter-spacing:.02em;line-height:1.5">Je peux passer prendre le café chez vous</div>
  <div class="serif" style="font-size:104px;line-height:.98;font-weight:400;letter-spacing:-.01em">CHAQUE SEMAINE.</div>
 </div>
-<div style="position:absolute;right:90px;bottom:120px;transform:rotate(3deg)"><span class="tag">Votre studio <b>du coin</b>.</span></div>
 </div>`;
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
 await p.setContent(`<html><head>${FONTS}<style>${CSS}</style></head><body>${html}</body></html>`,{waitUntil:'networkidle'});
