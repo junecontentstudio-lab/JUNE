@@ -5,3 +5,5 @@ __pycache__/
 # Visuels avec le visage de June : ne pas publier sur GitHub (dépôt public)
 post-arrivee/journal-*.png
 post-arrivee/instagram/journal-*.jpg
+post-2910/*.jpg
+post-2910/instagram/
