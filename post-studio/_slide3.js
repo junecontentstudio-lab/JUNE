@@ -4,12 +4,13 @@ const {chromium}=require('playwright');const fs=require('fs');
 const CIEL='data:image/jpeg;base64,'+fs.readFileSync('prive/ciel.jpg').toString('base64');
 const IMG='data:image/png;base64,'+fs.readFileSync('prive/sticker-montagne.png').toString('base64');
 const FONTS='<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Cormorant+Garamond:ital,wght@1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">';
-const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
+const CSS=`.f{text-shadow:0 2px 16px rgba(20,25,35,.55),0 1px 3px rgba(20,25,35,.4)}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#3E3F42 url(${CIEL}) center/cover;color:#F3ECE0}
-.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.55),rgba(38,39,42,.62))}
+.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,35,45,.22),rgba(30,35,45,.3))}
 .grain{position:absolute;inset:0;opacity:.3;mix-blend-mode:overlay}
 .it{font-family:'Instrument Serif',serif}.cg{font-family:'Cormorant Garamond',serif;font-style:italic}
-.tag{display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:26px;padding:8px 18px 10px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:300}
+.tag{text-shadow:none;display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:26px;padding:8px 18px 10px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:300}
 .tag b{font-weight:500;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}`;
 const html=`<div class="f">
 <div class="voile"></div>

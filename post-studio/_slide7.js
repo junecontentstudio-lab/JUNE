@@ -3,13 +3,14 @@
 const {chromium}=require('playwright');const fs=require('fs');
 const FOND='data:image/jpeg;base64,'+fs.readFileSync('prive/fond-cta.jpg').toString('base64');
 const FONTS='<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">';
-const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
+const CSS=`.f{text-shadow:0 2px 16px rgba(20,25,35,.55),0 1px 3px rgba(20,25,35,.4)}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#3E3F42 url(${FOND}) center/cover;color:#F3ECE0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
-.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.55),rgba(38,39,42,.35) 50%,rgba(38,39,42,.6))}
+.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,35,45,.22),rgba(30,35,45,.12) 50%,rgba(30,35,45,.28))}
 .grain{position:absolute;inset:0;opacity:.3;mix-blend-mode:overlay}
 .it{font-family:'Instrument Serif',serif;letter-spacing:-.03em}
 .c{position:relative;padding:0 80px}
-.tag{display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:28px;padding:9px 22px 11px;box-shadow:0 4px 12px rgba(0,0,0,.35);font-weight:300}
+.tag{text-shadow:none;display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:28px;padding:9px 22px 11px;box-shadow:0 4px 12px rgba(0,0,0,.35);font-weight:300}
 .tag b{font-weight:500;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}
 .btn{display:inline-flex;align-items:center;gap:16px;border:1.5px solid rgba(243,236,224,.8);border-radius:60px;padding:20px 44px;font-size:28px;letter-spacing:.08em;text-transform:uppercase;font-weight:400;background:rgba(243,236,224,.08);backdrop-filter:blur(3px)}`;
 const html=`<div class="f"><div class="voile"></div>

@@ -3,13 +3,14 @@
 const {chromium}=require('playwright');const fs=require('fs');
 const CIEL='data:image/jpeg;base64,'+fs.readFileSync('prive/ciel.jpg').toString('base64');
 const FONTS='<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">';
-const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
+const CSS=`.f{text-shadow:0 2px 16px rgba(20,25,35,.55),0 1px 3px rgba(20,25,35,.4)}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#3E3F42 url(${CIEL}) center/cover;color:#F3ECE0}
-.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.6),rgba(38,39,42,.7))}
+.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,35,45,.26),rgba(30,35,45,.34))}
 .grain{position:absolute;inset:0;opacity:.3;mix-blend-mode:overlay}
 .it{font-family:'Instrument Serif',serif;letter-spacing:-.03em}
 .p{font-size:32px;line-height:1.45;max-width:880px}
-.tag{display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:26px;padding:7px 18px 9px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:300;margin:0 10px 12px 0}
+.tag{text-shadow:none;display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:26px;padding:7px 18px 9px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:300;margin:0 10px 12px 0}
 s{text-decoration:none;position:relative;color:#B9B6B0}s:after{content:'';position:absolute;left:-6px;right:-6px;top:55%;height:4px;background:#A9BDB3;transform:rotate(-3deg)}`;
 const html=`<div class="f"><div class="voile"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>

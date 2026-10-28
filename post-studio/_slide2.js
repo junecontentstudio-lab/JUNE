@@ -2,12 +2,13 @@
 const {chromium}=require('playwright');const fs=require('fs');
 const CIEL='data:image/jpeg;base64,'+fs.readFileSync('prive/ciel.jpg').toString('base64');
 const FONTS='<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">';
-const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
+const CSS=`.f{text-shadow:0 2px 16px rgba(20,25,35,.55),0 1px 3px rgba(20,25,35,.4)}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#3E3F42 url(${CIEL}) center/cover;color:#F3ECE0}
 .grain{position:absolute;inset:0;opacity:.3;mix-blend-mode:overlay}
-.vig{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.55),rgba(38,39,42,.62)),radial-gradient(ellipse at 30% 45%,rgba(255,255,255,.05),rgba(0,0,0,.3) 90%)}
+.vig{position:absolute;inset:0;background:linear-gradient(180deg,rgba(30,35,45,.22),rgba(30,35,45,.3)),radial-gradient(ellipse at 30% 45%,rgba(255,255,255,.05),rgba(0,0,0,.3) 90%)}
 .serif{font-family:'Instrument Serif',serif;letter-spacing:-.03em}.cg{font-family:'Cormorant Garamond',serif}
-.tag{display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:28px;padding:6px 18px 8px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:400}
+.tag{text-shadow:none;display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:28px;padding:6px 18px 8px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:400}
 .tag b{font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
 s{text-decoration:none;position:relative;color:#B9B6B0}s:after{content:'';position:absolute;left:-6px;right:-6px;top:54%;height:4px;background:#A9BDB3;transform:rotate(-3deg)}`;
 const html=`<div class="f">

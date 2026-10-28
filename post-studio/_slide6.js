@@ -7,7 +7,7 @@ const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sa
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#F1ECE4;color:#2E2F31}
 .grain{position:absolute;inset:0;opacity:.18;mix-blend-mode:multiply}
 .it{font-family:'Instrument Serif',serif;letter-spacing:-.025em}
-.band{position:absolute;left:0;right:0;top:0;height:320px;background:url(${BAND}) center/cover;filter:saturate(.75) contrast(1.03)}
+.band{position:absolute;left:0;right:0;top:0;height:320px;background:url(${BAND}) center/cover}
 .band:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.15),rgba(241,236,228,0) 60%,#F1ECE4)}
 ul{list-style:none;margin-top:30px}
 li{display:flex;gap:22px;align-items:baseline;padding:19px 0;border-top:1px solid rgba(46,47,49,.18);font-size:27px;line-height:1.36}
