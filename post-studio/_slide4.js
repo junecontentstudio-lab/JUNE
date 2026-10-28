@@ -23,8 +23,8 @@ const html=`<div class="f"><div class="voile"></div>
   <div class="tag" style="transform:rotate(1deg);margin-left:40px">une story <b style="font-weight:500">floue</b> prise en plein service,</div><br>
   <div class="tag" style="transform:rotate(-1deg);margin-left:12px">rien depuis <b style="font-weight:500">trois semaines</b>.</div>
  </div>
- <div class="p" style="margin-top:30px;max-width:none;white-space:nowrap;font-size:30px">Pendant ce temps, votre terrasse est pleine, l'ambiance est parfaite…</div>
- <div class="it" style="font-size:112px;line-height:.9;margin-top:18px;color:#C3D5CB"><i>et personne ne le voit.</i></div>
+ <div class="p" style="margin-top:34px">Pendant ce temps-là…</div>
+ <div class="it" style="font-size:124px;line-height:.9;margin-top:14px;color:#C3D5CB"><i>personne ne le voit.</i></div>
 </div></div>`;
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
 await p.setContent(`<html><head>${FONTS}<style>${CSS}</style></head><body>${html}</body></html>`,{waitUntil:'networkidle'});
