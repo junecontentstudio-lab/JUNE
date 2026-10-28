@@ -25,7 +25,6 @@ const L=[
 const html=`<div class="f"><div class="band"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div style="position:absolute;left:84px;right:84px;top:330px">
- <div class="it" style="font-size:36px;color:#6F8A7E;letter-spacing:.12em">— 06</div>
  <div class="it" style="font-size:84px;line-height:.95;margin-top:14px">Cet hiver, <i style="color:#6F8A7E">avec June</i>,<br>concrètement :</div>
  <ul>${L.map(t=>`<li><span class="fl">→</span><span>${t}</span></li>`).join('')}</ul>
  <div class="it" style="font-size:33px;line-height:1.25;margin-top:40px;text-align:center;color:#4A4C4F"><i>« Vous faites vivre votre lieu. Je fais ressentir ce qu'on y vit. »</i></div>

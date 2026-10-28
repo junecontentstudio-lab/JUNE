@@ -17,12 +17,11 @@ const html=`<div class="f">
 <div style="position:absolute;right:-40px;top:250px;width:560px;height:1150px;background:rgba(243,236,224,.10);border:1.5px solid rgba(243,236,224,.35);border-radius:280px 280px 0 0;backdrop-filter:blur(4px)"></div>
 <img src="${IMG}" style="position:absolute;right:20px;bottom:0;height:860px;filter:drop-shadow(0 18px 28px rgba(0,0,0,.4))">
 <div style="position:absolute;left:78px;top:200px;width:620px">
- <div class="it" style="font-size:40px;color:#A9BDB3;letter-spacing:.12em">— 03</div>
  <div class="it" style="font-size:116px;line-height:.86;letter-spacing:-.035em;margin-top:40px">je connais<br>la station<br><i style="color:#C3D5CB">de l'intérieur.</i></div>
 </div>
 <div style="position:absolute;left:78px;top:830px;transform:rotate(-3deg)"><span class="tag">Je suis aussi <b>saisonnière</b></span></div>
 <div style="position:absolute;left:120px;top:892px;transform:rotate(-1deg)"><span class="tag">cet <b>hiver</b>,</span></div>
-<div style="position:absolute;left:96px;top:952px;transform:rotate(2deg)"><span class="tag">et ce depuis <b>quelques années</b>.</span></div>
+<div style="position:absolute;left:96px;top:952px;transform:rotate(2deg)"><span class="tag">et ce depuis <b>2019</b>.</span></div>
 </div>`;
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
 await p.setContent(`<html><head>${FONTS}<style>${CSS}</style></head><body>${html}</body></html>`,{waitUntil:'networkidle'});

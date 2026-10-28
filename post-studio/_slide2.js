@@ -13,9 +13,7 @@ s{text-decoration:none;position:relative;color:#B9B6B0}s:after{content:'';positi
 const html=`<div class="f">
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div class="vig"></div>
-<div style="position:absolute;left:96px;right:90px;top:260px">
- <div class="serif" style="font-size:150px;line-height:1;color:#A9BDB3;font-style:italic;font-weight:400">02</div>
- <div style="width:90px;height:2px;background:#A9BDB3;margin:26px 0 54px"></div>
+<div style="position:absolute;left:96px;right:90px;top:400px">
  <div class="serif" style="font-size:104px;line-height:.9;font-style:italic;font-weight:400">Je suis sur place,</div>
  <div class="serif" style="font-size:104px;line-height:.9;font-weight:400;margin-top:6px">pas à <s>2 heures</s><br><s>de route</s>.</div>
  <div style="margin-top:80px;font-size:34px;letter-spacing:.02em;line-height:1.5">Je peux passer prendre le café chez vous</div>

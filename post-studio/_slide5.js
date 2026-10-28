@@ -14,7 +14,6 @@ s{text-decoration:none;position:relative;color:#B9B6B0}s:after{content:'';positi
 const html=`<div class="f"><div class="voile"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div style="position:absolute;left:84px;right:84px;top:220px">
- <div class="it" style="font-size:40px;color:#A9BDB3;letter-spacing:.12em">— 05</div>
  <div class="it" style="font-size:96px;line-height:.92;margin-top:30px"><i>Ce n'est pas l'envie<br>qui manque.</i><br>C'est le temps.</div>
  <div style="width:90px;height:2px;background:#A9BDB3;margin:48px 0 40px"></div>
  <div class="p">En pleine saison…</div>

@@ -14,7 +14,6 @@ s{text-decoration:none;position:relative;color:#B9B6B0}s:after{content:'';positi
 const html=`<div class="f"><div class="voile"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div style="position:absolute;left:84px;right:84px;top:250px">
- <div class="it" style="font-size:40px;color:#A9BDB3;letter-spacing:.12em">— 04</div>
  <div class="it" style="font-size:88px;line-height:.92;margin-top:30px"><i>« On poste déjà un peu<br>nous-mêmes. <s>Ça suffit.</s> »</i></div>
  <div style="width:90px;height:2px;background:#A9BDB3;margin:48px 0 40px"></div>
  <div class="p">Ce soir, un client hésite entre vous et la terrasse d'à côté. Il ouvre votre Instagram. Il tombe sur…</div>

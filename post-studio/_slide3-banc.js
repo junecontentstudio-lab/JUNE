@@ -16,12 +16,11 @@ const html=`<div class="f">
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <img src="${IMG}" style="position:absolute;left:0;bottom:30px;width:880px;filter:drop-shadow(0 18px 28px rgba(0,0,0,.4))">
 <div style="position:absolute;left:78px;top:110px;width:620px">
- <div class="it" style="font-size:40px;color:#A9BDB3;letter-spacing:.12em">— 03</div>
  <div class="it" style="font-size:100px;line-height:.86;letter-spacing:-.035em;margin-top:40px">je connais<br>la station<br><i style="color:#C3D5CB">de l'intérieur.</i></div>
 </div>
 <div style="position:absolute;right:60px;top:560px;transform:rotate(-3deg)"><span class="tag">Je suis aussi <b>saisonnière</b></span></div>
 <div style="position:absolute;right:110px;top:622px;transform:rotate(-1deg)"><span class="tag">cet <b>hiver</b>,</span></div>
-<div style="position:absolute;right:50px;top:682px;transform:rotate(2deg)"><span class="tag">et ce depuis <b>quelques années</b>.</span></div>
+<div style="position:absolute;right:50px;top:682px;transform:rotate(2deg)"><span class="tag">et ce depuis <b>2019</b>.</span></div>
 </div>`;
 (async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1080,height:1350}});
 await p.setContent(`<html><head>${FONTS}<style>${CSS}</style></head><body>${html}</body></html>`,{waitUntil:'networkidle'});

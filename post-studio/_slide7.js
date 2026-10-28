@@ -15,7 +15,6 @@ const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sa
 const html=`<div class="f"><div class="voile"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
 <div class="c">
- <div class="it" style="font-size:36px;color:#C3D5CB;letter-spacing:.12em">— 07</div>
  <div style="font-size:30px;margin-top:40px;letter-spacing:.02em">J'arrive à l'Alpe d'Huez le 17 novembre.</div>
  <div class="it" style="font-size:118px;line-height:.9;margin-top:34px">On en parle<br><i style="color:#C3D5CB">autour d'un café ?</i></div>
  <div style="margin-top:56px;transform:rotate(-2deg)"><span class="tag">Écrivez-moi <b>en MP</b>, on se rencontre dès le <b>17 novembre</b>.</span></div>
