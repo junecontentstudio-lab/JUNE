@@ -1,22 +1,25 @@
 // Carrousel studio, slide 3 : « Je connais la station de l'intérieur » + photo détourée. Usage : node _slide3.js
 // La photo détourée (prive/sticker.png) n'est pas versionnée.
 const {chromium}=require('playwright');const fs=require('fs');
+const CIEL='data:image/jpeg;base64,'+fs.readFileSync('prive/ciel.jpg').toString('base64');
 const IMG='data:image/png;base64,'+fs.readFileSync('prive/sticker.png').toString('base64');
 const FONTS='<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@1,500&family=Jost:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">';
 const CSS=`*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Jost',sans-serif;font-weight:300}
-.f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#F3ECE0;color:#3A2B22}
-.grain{position:absolute;inset:0;opacity:.22;mix-blend-mode:multiply}
+.f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#3E3F42 url(${CIEL}) center/cover;color:#F3ECE0}
+.voile{position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,39,42,.55),rgba(38,39,42,.62))}
+.grain{position:absolute;inset:0;opacity:.3;mix-blend-mode:overlay}
 .it{font-family:'Italiana',serif}.cg{font-family:'Cormorant Garamond',serif;font-style:italic}
-.tag{display:inline-block;background:#3A2B22;color:#F3ECE0;font-size:26px;padding:8px 18px 10px;box-shadow:0 4px 10px rgba(58,43,34,.25);font-weight:300}
+.tag{display:inline-block;background:#F3ECE0;color:#2E2F31;font-size:26px;padding:8px 18px 10px;box-shadow:0 4px 10px rgba(0,0,0,.3);font-weight:300}
 .tag b{font-weight:500;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}`;
 const html=`<div class="f">
+<div class="voile"></div>
 <svg class="grain" width="1080" height="1350"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
-<div style="position:absolute;right:-40px;top:250px;width:560px;height:1150px;background:#D9C6AE;border-radius:280px 280px 0 0"></div>
-<img src="${IMG}" style="position:absolute;right:20px;bottom:-60px;height:1120px;filter:drop-shadow(0 18px 24px rgba(58,43,34,.28))">
+<div style="position:absolute;right:-40px;top:250px;width:560px;height:1150px;background:rgba(243,236,224,.10);border:1.5px solid rgba(243,236,224,.35);border-radius:280px 280px 0 0;backdrop-filter:blur(4px)"></div>
+<img src="${IMG}" style="position:absolute;right:20px;bottom:-60px;height:1120px;filter:drop-shadow(0 18px 28px rgba(0,0,0,.4))">
 <div style="position:absolute;left:84px;top:250px;width:560px">
- <div class="it" style="font-size:40px;color:#B38B4D;letter-spacing:.2em">— 03</div>
+ <div class="it" style="font-size:40px;color:#A9BDB3;letter-spacing:.2em">— 03</div>
  <div class="it" style="font-size:118px;line-height:.98;margin-top:40px">JE<br>CONNAIS<br>LA STATION</div>
- <div style="font-family:'Pinyon Script',cursive;font-size:90px;color:#B38B4D;line-height:1;margin:10px 0 0 20px">de l'intérieur.</div>
+ <div style="font-family:'Pinyon Script',cursive;font-size:90px;color:#C3D5CB;line-height:1;margin:10px 0 0 20px">de l'intérieur.</div>
 </div>
 <div style="position:absolute;left:84px;top:1010px;transform:rotate(-3deg)"><span class="tag">Je suis aussi <b>saisonnière</b></span></div>
 <div style="position:absolute;left:130px;top:1072px;transform:rotate(-1deg)"><span class="tag">cet <b>hiver</b>.</span></div>
