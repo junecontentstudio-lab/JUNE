@@ -1,9 +1,13 @@
-Je m'appelle Ludivine. Je fais ma saison à l'Alpe d'Huez depuis quelques années, et cet hiver, j'y installe June : un studio de communication visuelle et de création de contenu, sur place, toute la saison.
+Aujourd'hui, avant de pousser votre porte, vos futurs clients vous ont déjà regardés. Sur Instagram, sur Google, dans les avis. Et c'est là, bien souvent, qu'ils font leur choix entre vous et l'adresse d'à côté.
 
-Mon idée : faire ressentir votre lieu avant même que vos clients arrivent.
+Vos réseaux, ce n'est pas juste une vitrine. C'est votre image, votre e-réputation, la première impression que vous laissez. Et en pleine saison, entre le service, l'équipe et les imprévus, on n'a jamais le temps de s'en occuper. C'est normal.
 
-Je ne suis pas à 2 heures de route. Je peux passer prendre le café chez vous chaque semaine, filmer votre terrasse à la golden hour, vos soirées, la neige fraîche… pendant que vous, vous faites tourner la maison.
+Cet hiver, June Content Studio s'installe à l'Alpe d'Huez.
+Sur place, toute la saison, pour capter ces moments-là et construire avec vous une image qui vous ressemble vraiment, celle qui donne envie de venir.
 
-J'arrive le 17 novembre. Si vous avez un hôtel, un hébergement, un restaurant ou une boutique à l'Alpe d'Huez, écrivez-moi en MP : on en parle autour d'un café ☕️
+Vous faites vivre votre lieu.
+Je fais ressentir ce qu'on y vit.
+
+☕ Arrivée le 17 novembre. Écrivez-moi « CAFÉ » en message privé et on se rencontre chez vous.
 
 #alpedhuez #oisans #creationdecontenu #communicationvisuelle #stationdeski
