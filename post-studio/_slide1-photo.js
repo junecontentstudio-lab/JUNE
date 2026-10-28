@@ -7,11 +7,11 @@ const CSS=`*{margin:0;padding:0;box-sizing:border-box}
 .f{width:1080px;height:1350px;position:relative;overflow:hidden;background:#2E1D16;color:#F3ECE0}
 .ph{position:absolute;left:0;right:0;top:0;bottom:0;background:url(${IMG}) 50% 0%/cover;filter:sepia(.22) saturate(.8) contrast(1.05) brightness(.97)}
 .dg{position:absolute;left:0;right:0;top:0;bottom:0;background:linear-gradient(180deg,rgba(46,29,22,.45),rgba(46,29,22,.25) 45%,rgba(46,29,22,0) 62%)}
-.t{font-family:'Instrument Serif',serif;font-size:104px;line-height:.86;letter-spacing:-.035em}
+.t{font-family:'Instrument Serif',serif;font-size:90px;line-height:.86;letter-spacing:-.035em}
 .s{font-family:'Archivo',sans-serif;font-weight:600;font-size:22px;letter-spacing:.06em;line-height:1.35;text-transform:uppercase;color:#F3ECE0;text-shadow:0 1px 6px rgba(30,18,12,.7)}`;
 const html=`<div class="f">
 <div class="ph"></div><div class="dg"></div>
-<div style="position:absolute;left:78px;top:96px">
+<div style="position:absolute;left:78px;top:70px">
  <div class="t"><i>un studio de</i><br>communication,<br>sur place,<br>toute la saison.</div>
  <div style="margin-top:40px;display:inline-block;transform:rotate(-2deg);background:#F3ECE0;color:#2E2F31;font-family:'Jost',sans-serif;font-size:28px;font-weight:300;padding:8px 20px 10px;box-shadow:0 4px 12px rgba(0,0,0,.35)">Ça change <b style="font-weight:500;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px">quoi</b> pour vous ? →</div>
 </div>
