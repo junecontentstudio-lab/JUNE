@@ -246,3 +246,4 @@ Fichiers liés :
 | 25/10/2026 | Kie.AI testé (clé OK, crédits rechargés), kit de marque en PNG, analyse du feed, calendrier de contenu du 26/10 au 29/11. |
 | 25/10/2026 | Création de l'agent `idees-contenu` (recherche d'idées d'après les concurrents), du lancement de conversation dédiée et du script d'ajout d'idées dans Supabase. |
 | 25/10/2026 | Prochain chantier décidé : montage de réels avec HyperFrames à partir de mes rushs (tâche 9). Faisabilité testée. |
+| 29/10/2026 | Premier carrousel « studio sur place » (7 slides, scripts dans `post-studio/`) publié sur @junecontentstudio via Zernio (API `api.zernio.com`, compte Instagram connecté). Images avec photo de June gardées hors du dépôt (`post-studio/prive/`). |
