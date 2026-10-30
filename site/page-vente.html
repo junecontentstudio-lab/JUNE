@@ -1,0 +1,327 @@
+<title>June Content Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap">
+<style>
+/* Layout : une boutique de village. Vitrine (hero), étagères (offres), registre (FAQ). Colonne étroite, bandes pleine largeur. */
+:root{
+  --papier:#F3ECE0; --sapin:#2F4036; --laiton:#B38B4D; --cafe:#3A2B22; --rose:#D9B8A6;
+  --bg:var(--papier); --fg:var(--cafe); --muted:#6E5C4F; --line:#D8CBB6; --surface:#FBF7F0;
+  --band:var(--sapin); --band-fg:var(--papier); --accent:var(--laiton); --soft:var(--rose);
+  --display:"Cormorant Garamond", Garamond, "Times New Roman", serif;
+  --body:"Jost", "Futura", "Avenir Next", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#231A15; --fg:#F3ECE0; --muted:#BFAF9C; --line:#4A3B31; --surface:#2D221C;
+  --band:#24332B; --band-fg:#F3ECE0; --accent:#C9A266; --soft:#8E6E60; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#231A15; --fg:#F3ECE0; --muted:#BFAF9C; --line:#4A3B31; --surface:#2D221C;
+  --band:#24332B; --band-fg:#F3ECE0; --accent:#C9A266; --soft:#8E6E60; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(56px,9vw,104px)}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(44px,8vw,88px);letter-spacing:-.01em}
+h2{font-size:clamp(34px,5vw,54px)}
+h3{font-size:28px}
+p{margin:0;max-width:62ch}
+em{font-family:var(--display);font-style:italic;font-size:1.12em}
+.label{font:500 12px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.stack{display:grid;gap:20px}
+a{color:inherit}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:2px;background:var(--sapin);color:var(--papier);text-decoration:none;font:500 15px/1 var(--body);letter-spacing:.06em;border:1px solid var(--sapin);transition:transform .2s ease, background .2s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--fg)}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+:root[data-theme="dark"] .btn:not(.ghost){background:var(--accent);border-color:var(--accent);color:#231A15}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn:not(.ghost){background:var(--accent);border-color:var(--accent);color:#231A15}}
+
+/* En-tête */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:14px}
+.logo{font:600 24px/1 var(--display);text-decoration:none}
+.logo small{display:block;font:500 10px/1.4 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+header .btn{padding:11px 16px;font-size:13px}
+
+/* Vitrine */
+.hero{padding-block:clamp(48px,8vw,96px) clamp(56px,8vw,88px)}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(32px,6vw,72px);align-items:center}
+.hero .stack{gap:26px}
+.hero p.lead{font-size:19px;color:var(--muted)}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.fine{font-size:14px;color:var(--muted)}
+.vitrine{position:relative;aspect-ratio:4/5;max-width:100%;border:1px solid var(--fg);padding:14px;background:var(--surface)}
+.vitrine .cadre{height:100%;background:linear-gradient(170deg,var(--sapin) 0 58%,var(--soft) 58% 100%);display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:var(--papier)}
+.vitrine .cadre span{font:500 11px/1.4 var(--body);letter-spacing:.2em;text-transform:uppercase}
+.vitrine .cadre b{font:500 34px/1.05 var(--display);color:var(--cafe)}
+.tampon{position:absolute;right:-18px;bottom:-22px;width:118px;height:118px;border-radius:50%;border:1.5px solid var(--accent);color:var(--accent);background:var(--bg);display:grid;place-items:center;text-align:center;transform:rotate(-12deg);font:600 italic 20px/1.05 var(--display)}
+.tampon::before{content:"";position:absolute;inset:6px;border-radius:50%;border:1px dashed var(--accent)}
+
+/* Bande sapin */
+.band{background:var(--band);color:var(--band-fg)}
+.band .label{color:var(--accent)}
+.problemes{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:44px}
+.problemes div{display:grid;gap:10px;border-top:1px solid color-mix(in srgb,var(--band-fg) 30%,transparent);padding-top:20px}
+.problemes h3{font-size:25px}
+.problemes p{color:color-mix(in srgb,var(--band-fg) 78%,transparent);font-size:16px}
+
+/* Pack */
+.pack{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,72px);align-items:start}
+.inventaire{border:1px solid var(--fg);background:var(--surface)}
+.inventaire header{position:static;display:flex;justify-content:space-between;align-items:baseline;padding:18px 22px;border-bottom:1px solid var(--fg);background:transparent}
+.inventaire header b{font:500 26px/1 var(--display)}
+.inventaire ul{list-style:none;margin:0;padding:0}
+.inventaire li{display:grid;grid-template-columns:56px 1fr;gap:14px;padding:16px 22px;border-bottom:1px dashed var(--line);align-items:baseline}
+.inventaire li:last-child{border-bottom:0}
+.qte{font:500 30px/1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+.inventaire li strong{font-weight:500;display:block}
+.inventaire li span{font-size:15px;color:var(--muted)}
+
+/* Étapes */
+.etapes{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:44px;counter-reset:e}
+.etapes li{list-style:none;display:grid;gap:10px;align-content:start}
+.etapes li::before{counter-increment:e;content:counter(e);font:500 italic 44px/1 var(--display);color:var(--accent)}
+.etapes h3{font-size:24px}
+.etapes p{font-size:16px;color:var(--muted)}
+ol.etapes{padding:0;margin-bottom:0}
+
+/* Offres */
+.offres{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:44px}
+.offre{display:grid;gap:18px;align-content:start;padding:32px;border:1px solid var(--line);background:var(--surface)}
+.offre.vedette{border-color:var(--fg);position:relative}
+.offre .prix{font:500 54px/1 var(--display)}
+.offre .prix small{font:400 15px/1 var(--body);color:var(--muted);margin-left:6px}
+.offre ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.offre ul li::marker{color:var(--accent)}
+.ruban{position:absolute;top:-13px;left:32px;background:var(--rose);color:var(--cafe);font:500 11px/1 var(--body);letter-spacing:.16em;text-transform:uppercase;padding:8px 12px}
+.extras{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.extras span.tag{border:1px solid var(--line);padding:8px 14px;font-size:14px;border-radius:999px}
+
+/* Preuve */
+.avis{display:grid;grid-template-columns:auto 1fr;gap:clamp(24px,5vw,56px);align-items:center}
+.avis .guillemet{font:500 160px/.7 var(--display);color:var(--accent)}
+.avis blockquote{margin:0;font:500 italic clamp(26px,3.6vw,38px)/1.25 var(--display);text-wrap:balance}
+.avis cite{display:block;margin-top:18px;font:500 13px/1.4 var(--body);font-style:normal;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.note{margin-top:14px;font-size:13px;color:var(--muted);border:1px dashed var(--accent);padding:8px 12px;display:inline-block}
+
+/* Qui je suis */
+.moi{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,72px);align-items:center}
+.portrait{aspect-ratio:3/4;max-width:100%;background:repeating-linear-gradient(135deg,var(--surface) 0 12px,var(--bg) 12px 24px);border:1px solid var(--line);display:grid;place-items:center;color:var(--muted);font-size:14px;text-align:center;padding:20px}
+
+/* FAQ */
+.faq{display:grid;gap:0;margin-top:36px;border-top:1px solid var(--fg)}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;font:500 24px/1.25 var(--display)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--accent);font-family:var(--body);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin-top:12px;color:var(--muted)}
+
+/* Fin */
+.fin{text-align:left}
+.fin .wrap{display:grid;gap:26px;justify-items:start}
+footer{border-top:1px solid var(--line);padding-block:28px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+
+@media (max-width:820px){
+  .hero .wrap,.pack,.moi,.offres{grid-template-columns:1fr}
+  .problemes{grid-template-columns:1fr}
+  .etapes{grid-template-columns:1fr 1fr}
+  .vitrine{max-width:360px}
+  .avis{grid-template-columns:1fr}
+  .avis .guillemet{font-size:110px}
+}
+@media (max-width:480px){
+  .etapes{grid-template-columns:1fr}
+  header .btn{display:none}
+  .tampon{right:-6px;width:100px;height:100px;font-size:17px}
+  .offre{padding:26px 20px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#haut">June<small>Content Studio · Alpe d'Huez</small></a>
+    <a class="btn" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Réserver un appel</a>
+  </div>
+</header>
+
+<main id="haut">
+  <!-- Vitrine -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="stack">
+        <span class="label">Contenu pour hébergements, hôtels &amp; boutiques de station</span>
+        <h1>Donnez envie de <em>venir vivre</em> votre lieu.</h1>
+        <p class="lead">Je viens chez vous, je filme et je photographie ce que vos clients ressentent en passant la porte. Vous recevez des réels et des photos prêts à publier. Vous n'avez plus qu'à poster.</p>
+        <div class="cta-row">
+          <a class="btn" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Je veux mon pack →</a>
+          <a class="btn ghost" href="#pack">Voir ce qu'il contient</a>
+        </div>
+        <p class="fine">Sur place à l'Alpe d'Huez dès le 17 novembre · 3 places fondateurs cet hiver</p>
+      </div>
+      <div class="vitrine" aria-hidden="true">
+        <div class="cadre">
+          <span>Réel · POV · 0:15</span>
+          <b>« Arriver au chalet après la dernière piste »</b>
+        </div>
+        <div class="tampon">Vu par<br>June</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Le constat -->
+  <section class="band">
+    <div class="wrap">
+      <span class="label">Pendant la saison</span>
+      <h2 style="margin-top:14px">Vous n'avez pas le temps de faire votre com'. C'est normal.</h2>
+      <div class="problemes">
+        <div><h3>Les journées sont pleines</h3><p>Entre l'accueil, le service et les imprévus, filmer et monter passe toujours en dernier.</p></div>
+        <div><h3>Le compte s'endort</h3><p>Trois publications en début d'hiver, puis plus rien. Les clients qui cherchent sur Instagram ne voient pas ce que vous valez.</p></div>
+        <div><h3>Les photos ne racontent rien</h3><p>De belles images de chambre vide ne donnent pas envie. Ce qui fait réserver, c'est l'expérience vécue.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Le pack -->
+  <section id="pack">
+    <div class="wrap pack">
+      <div class="stack">
+        <span class="label">Le pack d'entrée</span>
+        <h2>Un mois de contenu, tourné chez vous en une après-midi.</h2>
+        <p>Je capte votre lieu comme vos clients le vivent : l'arrivée, les détails, l'ambiance du soir, la vue au réveil. Chaque réel est pensé pour être posté tel quel, avec son accroche et sa légende.</p>
+        <p class="fine">Le montage, la retouche et l'organisation sont faits pour vous.</p>
+      </div>
+      <div class="inventaire">
+        <header><b>Ce que vous recevez</b><span class="label">Pack</span></header>
+        <ul>
+          <li><span class="qte">8</span><div><strong>Réels prêts à publier</strong><span>POV, découverte, coulisses. Avec accroche et légende.</span></div></li>
+          <li><span class="qte">30</span><div><strong>Photos retouchées</strong><span>Pour le feed, les stories, votre site et Booking.</span></div></li>
+          <li><span class="qte">+</span><div><strong>Rushs vidéo</strong><span>Tous les plans tournés, pour vos propres montages.</span></div></li>
+          <li><span class="qte">1</span><div><strong>Content board</strong><span>Tous vos contenus rangés et reliés à un Drive.</span></div></li>
+          <li><span class="qte">1</span><div><strong>Calendrier de publication</strong><span>Quoi poster, quel jour, avec quel texte.</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Déroulé -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <span class="label">Comment ça se passe</span>
+      <h2 style="margin-top:14px">Quatre étapes, et vous ne vous occupez de rien.</h2>
+      <ol class="etapes">
+        <li><h3>On se parle</h3><p>15 minutes pour comprendre votre lieu, vos clients et ce que vous voulez montrer.</p></li>
+        <li><h3>Je prépare</h3><p>Je vous envoie la liste des plans et des idées de réels avant le tournage.</p></li>
+        <li><h3>Je tourne</h3><p>Une après-midi sur place, discrète, sans bloquer votre activité.</p></li>
+        <li><h3>Vous publiez</h3><p>Sous 10 jours, tout arrive dans votre content board, prêt à poster.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Offres -->
+  <section class="band">
+    <div class="wrap">
+      <span class="label">Les offres</span>
+      <h2 style="margin-top:14px">Commencez par un pack. Continuez au mois si ça vous plaît.</h2>
+      <div class="offres">
+        <article class="offre vedette">
+          <span class="ruban">Tarif fondateur · 3 places</span>
+          <span class="label">Pack d'entrée</span>
+          <div class="prix">590 €<small>une fois</small></div>
+          <ul>
+            <li>8 réels prêts à publier</li>
+            <li>30 photos retouchées</li>
+            <li>Rushs vidéo fournis</li>
+            <li>Content board relié au Drive</li>
+            <li>Calendrier de publication</li>
+          </ul>
+          <p class="fine" style="color:inherit;opacity:.75">En échange du tarif fondateur : un témoignage et le droit de montrer votre lieu dans mon portfolio.</p>
+          <a class="btn" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Réserver ma place</a>
+        </article>
+        <article class="offre">
+          <span class="label">Accompagnement mensuel</span>
+          <div class="prix">Sur devis</div>
+          <ul>
+            <li>Tournages réguliers tout au long de la saison</li>
+            <li>Réels et photos livrés chaque mois</li>
+            <li>Calendrier mis à jour</li>
+            <li>Gestion du compte possible, au cas par cas</li>
+          </ul>
+          <p class="fine" style="color:inherit;opacity:.75">Je limite le nombre de lieux suivis pour garder du temps pour chacun.</p>
+          <a class="btn ghost" style="color:inherit;border-color:currentColor" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Demander un devis</a>
+        </article>
+      </div>
+      <div class="extras">
+        <span class="label" style="margin-right:6px">À la carte</span>
+        <span class="tag">Shooting photo en plus</span>
+        <span class="tag">Réels en plus</span>
+        <span class="tag">Planning de publication</span>
+        <span class="tag">Gestion des réseaux</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preuve -->
+  <section>
+    <div class="wrap avis">
+      <div class="guillemet" aria-hidden="true">“</div>
+      <div>
+        <span class="label">Ce qu'en disent mes clientes</span>
+        <blockquote style="margin-top:16px">Je n'ai plus qu'à copier-coller et poster. Les réels plaisent, et je n'y passe plus mes soirées.</blockquote>
+        <cite>Salon de massage · Photos + réels</cite>
+        <p class="note">Texte provisoire, à remplacer par le vrai témoignage du salon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qui je suis -->
+  <section style="padding-top:0">
+    <div class="wrap moi">
+      <div class="portrait">Ta photo ici<br>(portrait en lumière naturelle)</div>
+      <div class="stack">
+        <span class="label">Qui est derrière June</span>
+        <h2>Je connais la station. J'y fais la saison.</h2>
+        <p>Ça fait plusieurs hivers que je vis à l'Alpe d'Huez. Je sais ce qui fait craquer quelqu'un qui hésite entre deux hôtels : la lumière dans la chambre, le chocolat chaud au retour des pistes, l'accueil.</p>
+        <p>C'est ça que je filme. Avec un studio organisé comme une petite agence, pour livrer vite et proprement.</p>
+        <a class="btn ghost" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Voir mon travail sur Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="band" style="padding-block:clamp(56px,8vw,88px)">
+    <div class="wrap">
+      <span class="label">Questions fréquentes</span>
+      <div class="faq" style="border-color:currentColor">
+        <details><summary>Combien de temps sur place ?</summary><p>Une après-midi en général. Je m'adapte à votre activité pour ne pas gêner vos clients.</p></details>
+        <details><summary>Et si je n'ai aucune idée de ce qu'il faut montrer ?</summary><p>C'est mon travail. Je vous propose les idées de réels avant le tournage et vous validez.</p></details>
+        <details><summary>Je peux utiliser les contenus ailleurs qu'Instagram ?</summary><p>Oui : site, Booking, Airbnb, TikTok, affichage. Les contenus sont à vous.</p></details>
+        <details><summary>Pourquoi seulement 3 places fondateurs ?</summary><p>Je travaille seule et je veux bien faire. Le tarif fondateur est réservé aux premiers lieux qui me font confiance cet hiver.</p></details>
+        <details><summary>Vous gérez aussi mon compte ?</summary><p>C'est possible au cas par cas, dans l'accompagnement mensuel. On en parle pendant l'appel.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dernier appel -->
+  <section class="fin">
+    <div class="wrap">
+      <span class="label">On commence ?</span>
+      <h2>Écrivez-moi « VITRINE » sur Instagram.</h2>
+      <p>Je vous réponds dans la journée pour caler un appel de 15 minutes.</p>
+      <a class="btn" href="https://www.instagram.com/junecontentstudio" target="_blank" rel="noopener">Écrire à @junecontentstudio →</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>June Content Studio · Alpe d'Huez</span>
+    <span>Réels, photos et contenu pour les lieux de station</span>
+  </div>
+</footer>
