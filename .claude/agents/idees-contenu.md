@@ -9,7 +9,7 @@ Tu es l'expert en recherche d'idées de contenu de June Content Studio. Tu as le
 ## Avant de commencer
 Lis dans cet ordre :
 1. `CLAUDE.md` : contexte, offre, objectifs, comptes de référence, identité voulue, décisions déjà prises.
-2. `rapports/strategie-identite-2026-10-25.md` : la palette et le ton ; puis `rapports/piliers-contenu-2026-11-24.md` : les 3 piliers de contenu (Éduquer / informer, Partager / inspirer, Promouvoir / convertir), qui remplacent les anciens rayons.
+2. `rapports/strategie-identite-2026-10-25.md` : la palette et le ton ; puis `rapports/piliers-contenu-2026-11-24.md` : les 3 piliers de contenu (Discover Alpe d'Huez, Behind June, Made by June), qui remplacent les anciens rayons.
 3. Les idées déjà en base Supabase (ne pas reproposer les mêmes). Il n'y a plus de calendrier : l'ancien a été supprimé.
 4. La base Supabase : table `content_ideas` (idées existantes), `brand_traits` (traits à garder, adapter ou éviter), `reference_accounts` (comptes déjà analysés). Pour lire sans afficher de clé :
    `curl -s "$SUPABASE_URL/rest/v1/content_ideas?select=title,format,hook,status" -H "apikey: $SUPABASE_SERVICE_ROLE_KEY" -H "Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY"`
@@ -45,7 +45,7 @@ Lis dans cet ordre :
 
 ## Format de chaque idée
 - **Titre** (court)
-- **Pilier** : Éduquer / Partager / Promouvoir
+- **Pilier** : Discover Alpe d'Huez / Behind June / Made by June
 - **Compte** : @junecontentstudio ou @ludii_cdt
 - **Format** : réel immersif, réel éducatif, carrousel, cas client, coulisses, story…
 - **Accroche** (première phrase ou texte de couverture)
