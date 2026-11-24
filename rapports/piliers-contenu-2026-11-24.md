@@ -3,7 +3,7 @@
 > Date : 24 novembre 2026. Remplace les 4 rayons (Vitrine, Comptoir, Atelier, Carnet) et l'ancien calendrier, supprimé à la demande de June.
 > Les 3 noms viennent d'une réflexion de marque de June (captures du 21/11) : **Discover Alpe d'Huez**, **Behind June**, **Made by June**.
 > Ce qui reste valable : l'identité visuelle (palette, polices, tampon), le ton humain et proche, la capacité réelle (seule, après-midis libres, 1 demi-journée de tournage par semaine).
-> **À valider par June** : la place du contenu « éduquer » (voir plus bas) et la répartition. Les prix vus sur les captures (590 €, 190-290 €) ne sont pas repris : les tarifs sont reportés.
+> **À valider par June** : la répartition. Les prix vus sur les captures (590 €, 190-290 €) ne sont pas repris : les tarifs sont reportés.
 
 ## Positionnement (capture)
 « Le studio créatif qui révèle les lieux et les expériences de l'Alpe d'Huez. »
@@ -28,8 +28,8 @@ Règle : le compte doit être intéressant à suivre même pour quelqu'un qui ne
 **Formats :** carrousel cas client, avant / après, réel de résultat.
 **Règles :** uniquement avec l'accord du client et un avis réel. Jamais de cas fictif. Jamais de prix annoncé tant que les tarifs sont reportés.
 
-## Où va le contenu « éduquer / conseils » ?
-June veut surtout donner du contenu qui éduque (tips, tutoriels, « si je devais créer du contenu pour un resto, voici ce que je ferais »). Aucun des 3 noms ne le porte directement. **Proposition :** le placer dans **Behind June** (méthode, conseils, face cam), puisque c'est là que June montre sa façon de faire. À confirmer.
+## Où va le contenu « éduquer / conseils » ? (décidé)
+June veut surtout donner du contenu qui éduque (tips, tutoriels, « si je devais créer du contenu pour un resto, voici ce que je ferais »). Aucun des 3 noms ne le porte directement. **Décision de June (24/11) : les conseils vont dans Behind June** (méthode, conseils, face cam).
 
 ## Répartition (à valider)
 Behind June (dont conseils) 40 % · Discover 30 % · Made by June 30 %.
