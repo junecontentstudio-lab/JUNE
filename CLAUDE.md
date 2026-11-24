@@ -167,7 +167,7 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 - Outils Apify utilisés : `instagram-profile-scraper` et `instagram-post-scraper` (données publiques uniquement). La recherche de comptes par mot-clé d'Apify donne de mauvais résultats.
 - Réseau de l'environnement : les images Instagram viennent de dizaines d'adresses (`*.cdninstagram.com`, `*.fbcdn.net`) : il faut les autoriser **avec l'étoile** puis ouvrir une nouvelle session. L'analyse visuelle de la grille reste à faire.
 - Kie.AI (génération d'images) : clé ajoutée par les réglages de l'environnement (ajoutée automatiquement aux appels vers `api.kie.ai`, la variable n'est pas visible). Test du 25/10 : 1 image réaliste = 4 crédits, ~10 s. **Le téléchargement des images générées est bloqué** : ajouter `tempfile.aiquickdraw.com` aux domaines autorisés.
-- Calendrier : `calendrier/` (CSV, Markdown, PDF) du 26/10 au 29/11/2026, régénérable avec `python3 calendrier/_generer.py`. Kit de marque : `kit-marque/` (PNG). Analyse du feed : `rapports/feed-couleurs-2026-10-25.md`.
+- Calendrier : l'ancien calendrier (26/10 au 29/11) a été supprimé le 24/11/2026 ; un nouveau sera construit à partir des 3 piliers (`rapports/piliers-contenu-2026-11-24.md`). Kit de marque : `kit-marque/` (PNG). Analyse du feed : `rapports/feed-couleurs-2026-10-25.md`.
 - Supabase : tables créées et données chargées (18 comptes, 41 traits, 34 idées). Pour ajouter de nouvelles données : `python3 scripts/charger_supabase.py 2026-10-25` (ne ré-envoie que ce qui manque).
 
 ### Tâches suivantes (à détailler au fur et à mesure)
@@ -219,7 +219,7 @@ Le salon a été trouvé grâce à une **offre découverte** (prestation offerte
 
 **Comptes qui vendent de la com' aux pros du tourisme (analysés le 25/10/2026)** : [@digitalmountainconsulting](https://www.instagram.com/digitalmountainconsulting) (Val Thorens, le plus proche de mon terrain), [@autourdelacom](https://www.instagram.com/autourdelacom) (contenus éducatifs de saison), [@lauramauri_socialmedia](https://www.instagram.com/lauramauri_socialmedia) (modèle solo), [@atelierdotcom](https://www.instagram.com/atelierdotcom) (branding hôtels), [@agencewebcom](https://www.instagram.com/agencewebcom) (peu utile). Leur engagement est faible : on s'inspire de leur positionnement, pas de leurs chiffres.
 
-**Identité de marque voulue (June, 25/10)** : *vintage, magasin, classe et élégant.* Proposition v2 à valider (`rapports/strategie-identite-2026-10-25.pdf`) : concept « maison de contenu / boutique de village de montagne » ; 4 rayons : La Vitrine, Le Comptoir (éducatif), L'Atelier (cas clients, coulisses), Le Carnet (local) ; palette Papier #F3ECE0, Sapin #2F4036, Laiton #B38B4D, Café #3A2B22, Rose poudré #D9B8A6 ; polices Cormorant Garamond + Jost ; tampon « Vu par June » et réel d'ouverture de porte.
+**Identité de marque voulue (June, 25/10)** : *vintage, magasin, classe et élégant.* Proposition v2 à valider (`rapports/strategie-identite-2026-10-25.pdf`) : concept « maison de contenu / boutique de village de montagne » ; **les 4 rayons sont remplacés depuis le 24/11/2026 par 3 piliers : Éduquer / informer, Partager / inspirer (coulisses), Promouvoir / convertir (résultats, cas clients, guide local)** ; palette Papier #F3ECE0, Sapin #2F4036, Laiton #B38B4D, Café #3A2B22, Rose poudré #D9B8A6 ; polices Cormorant Garamond + Jost ; tampon « Vu par June » et réel d'ouverture de porte.
 
 Image de marque v1 (niche) : voir la section 5 de `rapports/niche-idees-2026-10-25.md`.
 
@@ -244,3 +244,4 @@ Fichiers liés :
 | 25/10/2026 | Analyse de 5 agences qui vendent de la com' aux pros du tourisme, stratégie de contenu (4 rayons) et identité de marque v2 (palette, polices, tampon). Données chargées dans Supabase. |
 | 25/10/2026 | Kie.AI testé (clé OK, crédits rechargés), kit de marque en PNG, analyse du feed, calendrier de contenu du 26/10 au 29/11. |
 | 25/10/2026 | Création de l'agent `idees-contenu` (recherche d'idées d'après les concurrents), du lancement de conversation dédiée et du script d'ajout d'idées dans Supabase. |
+| 24/11/2026 | Calendrier édito supprimé. Nouveaux piliers de contenu : 3 seulement (Éduquer, Partager, Promouvoir), voir `rapports/piliers-contenu-2026-11-24.md`. Les 34 idées en base Supabase sont à trier. |
