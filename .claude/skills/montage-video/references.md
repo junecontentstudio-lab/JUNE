@@ -51,7 +51,8 @@ Modèle d'une entrée :
   - Les grands mots entrent flous puis deviennent nets.
 - Ce qui plaît à June : **ces bruitages sur le texte, à garder pour toutes ses prochaines vidéos.**
 - Ce qu'on garde : règles dans `SKILL.md`, rubrique « Bruitages ».
-- Limite : d'autres bruitages placés au centre (mono) peuvent être cachés sous la voix, et on ne peut pas les isoler. Le fichier son exact reste à récupérer (nom du son dans CapCut).
+- Deuxième son trouvé ensuite (clics détectés dans les aigus) : un **clic** sur la plupart des autres arrivées de texte en haut, à 0,15 s, 10,3 s (« *vit* »), 11,5 s (« *joli* »), 25,1 s (« si on racontait »), 32,1 s (« *émotion* »), 43,2 s, 50,3 s (« mais surtout il »), 57,3 s (« *découvert* »), 59,4 s (« *chez vous* ») et 65,7 s (« *réputée* »).
+- Noms confirmés par June (captures CapCut, 25/11) : whoosh = `挥舞Whoosh声2`, clic = `Flashlight-Large-Flashlight-Press-Button-On-o_GEN-HD3-34523`. Ce sont deux sons CapCut Pro.
 
 ## Clients
 

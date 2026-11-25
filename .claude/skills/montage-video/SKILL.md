@@ -81,14 +81,22 @@ Deux niveaux de texte, jamais en même temps :
 - Pas d'effets gadgets (rebond, rotation, couleurs flashy) : sobre et éditorial.
 
 **Bruitages (référence n°3 = « vidéo 1 » de June, 25/11/2026 : à garder pour TOUTES les vidéos)**
-- **Un seul type de bruitage**, toujours le même son : un **« whoosh » grave et doux** (souffle qui monte puis retombe).
-  - Durée : environ **0,35 s**. Le son monte pendant environ 0,25 s, puis s'éteint vite.
-  - Son grave (l'énergie est surtout sous 500 Hz), large en stéréo (il « enveloppe »).
-  - Volume discret : on l'entend, mais il reste **sous la voix**.
-- **Quand** : sur l'**arrivée d'un grand mot-clé** (« *fondue* », « *l'expérience* », « *concernée* », « 1000 », etc.).
-- **Calage précis** : le whoosh **démarre environ 0,2 s avant** que le grand mot apparaisse, et son **point le plus fort tombe pile sur l'apparition du mot**.
-- **Dosage** : **pas sur tous les grands mots**. Dans la vidéo 1, il y a 5 whooshs pour environ 20 grands mots en 66 s, soit environ **un toutes les 10 à 15 secondes**, sur les mots les plus forts. Les sous-titres courants n'ont **aucun bruitage**.
-- Fichier son : à récupérer (nom du son dans CapCut, à demander à June). En attendant, un whoosh grave et doux équivalent (skill `media-use`).
+
+Deux sons, et seulement ceux-là (noms confirmés par June dans CapCut) :
+
+| Son | Nom dans CapCut | À quoi il ressemble | Quand |
+|---|---|---|---|
+| **Le clic** | `Flashlight-Large-Flashlight-Press-Button-On-o_GEN-HD3-34523` | Clic sec et très court d'un bouton de lampe torche | Sur **la plupart des textes du bloc titre** (en haut) : le grand mot (« *vit* », « *joli* », « *émotion* », « *découvert* », « *chez vous* », « *réputée* ») ou la petite phrase d'amorce quand elle arrive (« si on racontait », « mais surtout il ») |
+| **Le whoosh** | `挥舞Whoosh声2` (« whoosh de geste n°2 ») | Souffle grave et doux d'environ 0,35 s, qui monte environ 0,25 s puis retombe, large en stéréo | Sur **les grands mots les plus forts** (« *fondue* », « *l'expérience* », « *concernée* », « 1000 ») |
+
+- **Calage** :
+  - le clic tombe **pile sur l'image où le texte apparaît** ;
+  - le whoosh **démarre environ 0,2 s avant** le grand mot, et son point le plus fort tombe sur l'apparition.
+- **Les deux peuvent s'enchaîner** : clic sur l'amorce, puis whoosh sur le grand mot qui suit (ex. « si on racontait » → « *l'expérience* »).
+- **Dosage (vidéo 1, 66 s)** : environ 11 clics et 5 whooshs. On peut compter un bruitage sur presque chaque arrivée de texte en haut, dont environ 1 whoosh toutes les 10 à 15 s, réservé aux mots forts.
+- **Les sous-titres courants** (au niveau de la poitrine) **n'ont aucun bruitage**.
+- **Volume** : discret, toujours sous la voix.
+- **Fichiers** : ce sont des sons CapCut Pro (avec le diamant), qu'on ne peut pas récupérer tels quels. Dans HyperFrames, on utilise des **équivalents libres de droits** les plus proches possible (un clic de bouton de lampe torche, un whoosh grave et doux), via le skill `media-use`. Les ranger dans `video/sons/` (`clic.wav`, `whoosh.wav`) et toujours réutiliser les mêmes.
 
 **Couleurs des textes (demande de June, 25/11/2026)**
 - **Jaune pastel `#FFF8B2`** : sous-titres et amorces (petits textes).
