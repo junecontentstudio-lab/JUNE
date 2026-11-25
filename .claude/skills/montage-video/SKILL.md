@@ -75,10 +75,20 @@ Deux niveaux de texte, jamais en même temps :
 **Animations (identiques à la référence maître)**
 - **Le texte passe DERRIÈRE la personne** : le grand mot est placé derrière la tête, et les cheveux et le visage passent **devant** les lettres. Technique : détourer la personne (`hyperframes remove-background` sur le rush), puis empiler 3 couches : le rush en fond → le texte → la personne détourée par-dessus.
 - L'amorce apparaît d'abord, **en fondu rapide (environ 0,15 s)**.
-- Le grand mot arrive **un temps après**, sur le mot prononcé : il **glisse légèrement depuis la gauche** jusqu'à sa place, en fondu (environ 0,25 s).
+- Le grand mot arrive **un temps après**, sur le mot prononcé : il **glisse légèrement depuis la gauche** jusqu'à sa place, en fondu et **en partant flou puis net** (environ 0,25 s). Vu aussi dans la vidéo 1 de June.
 - Le bloc reste environ 1 seconde, puis disparaît ; on revient aux sous-titres.
 - **Flou de passage** : quand une nouvelle phrase arrive alors qu'un grand mot est encore à l'écran (« 360 » → « sur tous les pôles »), l'ancien grand mot **se floute, glisse et s'efface** pendant que le nouveau texte apparaît dessous.
 - Pas d'effets gadgets (rebond, rotation, couleurs flashy) : sobre et éditorial.
+
+**Bruitages (référence n°3 = « vidéo 1 » de June, 25/11/2026 : à garder pour TOUTES les vidéos)**
+- **Un seul type de bruitage**, toujours le même son : un **« whoosh » grave et doux** (souffle qui monte puis retombe).
+  - Durée : environ **0,35 s**. Le son monte pendant environ 0,25 s, puis s'éteint vite.
+  - Son grave (l'énergie est surtout sous 500 Hz), large en stéréo (il « enveloppe »).
+  - Volume discret : on l'entend, mais il reste **sous la voix**.
+- **Quand** : sur l'**arrivée d'un grand mot-clé** (« *fondue* », « *l'expérience* », « *concernée* », « 1000 », etc.).
+- **Calage précis** : le whoosh **démarre environ 0,2 s avant** que le grand mot apparaisse, et son **point le plus fort tombe pile sur l'apparition du mot**.
+- **Dosage** : **pas sur tous les grands mots**. Dans la vidéo 1, il y a 5 whooshs pour environ 20 grands mots en 66 s, soit environ **un toutes les 10 à 15 secondes**, sur les mots les plus forts. Les sous-titres courants n'ont **aucun bruitage**.
+- Fichier son : à récupérer (nom du son dans CapCut, à demander à June). En attendant, un whoosh grave et doux équivalent (skill `media-use`).
 
 **Couleurs des textes (demande de June, 25/11/2026)**
 - **Jaune pastel `#FFF8B2`** : sous-titres et amorces (petits textes).

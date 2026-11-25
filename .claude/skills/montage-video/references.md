@@ -41,6 +41,18 @@ Modèle d'une entrée :
 - Ce qu'on garde : couleur `#FFF8B2` et police des sous-titres (règles dans `SKILL.md`). Les animations restent celles de la référence n°1.
 - Police confirmée par June (capture CapCut, 25/11) : **True Fate**, une police CapCut Pro, payante en dehors de CapCut (Set Sail Studios). Remplacement gratuit si on n'a pas le fichier : Tinos avec un espacement de -0,03 em.
 
+### N°3 — « vidéo 1 » de June : les bruitages (25/11/2026)
+- Source : Dropbox `/LUDII/video 1.mov` (66 s, face caméra sur canapé rouge, t-shirt jaune, micro à la main). C'est le montage CapCut de June, déjà dans le style de la référence maître (sous-titres sans-serif, amorces jaune pastel, grands mots marron qui passent derrière la tête).
+- Pour : June
+- Catégorie : son, bruitages
+- Ce que j'ai mesuré : en isolant la différence entre la gauche et la droite du son, on retrouve **5 fois le même bruitage**, identique à chaque fois (corrélation de 0,98 à 1,0). Il tombe à 18,4 s (« *fondue* »), 25,4 s (« *l'expérience* »), 40,9 s (« *concernée* »), 48,2 s (« 1000 ») et 65,0 s.
+  - C'est un **whoosh grave** d'environ 0,35 s (il monte environ 0,25 s puis retombe), large en stéréo.
+  - Il démarre environ 0,2 s avant le grand mot ; son point fort tombe sur l'apparition du mot.
+  - Les grands mots entrent flous puis deviennent nets.
+- Ce qui plaît à June : **ces bruitages sur le texte, à garder pour toutes ses prochaines vidéos.**
+- Ce qu'on garde : règles dans `SKILL.md`, rubrique « Bruitages ».
+- Limite : d'autres bruitages placés au centre (mono) peuvent être cachés sous la voix, et on ne peut pas les isoler. Le fichier son exact reste à récupérer (nom du son dans CapCut).
+
 ## Clients
 
 *(aucune référence pour l'instant)*
