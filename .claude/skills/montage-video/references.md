@@ -16,7 +16,8 @@ Modèle d'une entrée :
 
 ## June Content Studio
 
-### N°1 — Typo éditoriale et mots-clés géants (24/11/2026)
+### N°1 — ⭐ RÉFÉRENCE MAÎTRE — Typo éditoriale et mots-clés géants (24/11/2026)
+- **Décision de June (25/11/2026)** : c'est LA référence pour tous ses montages. Même typo, mêmes animations des sous-titres. Couleurs : jaune pastel et marron.
 - Source : enregistrement d'écran d'un réel de **@bella.agence** (« L'histoire de l'Agence Bella »), face caméra, 9 s. Fichier envoyé dans la conversation (non gardé dans le dépôt).
 - Pour : June
 - Catégorie : typo, effets de texte, couleurs
@@ -31,7 +32,7 @@ Modèle d'une entrée :
 - Ce qu'on change : **les couleurs.** Gros textes en **marron**, avec du **jaune pastel** (demande de June).
 - Précisions de June (25/11) : elle aime **les animations des sous-titres** et **l'effet où le texte passe derrière la personne**. Vérifié image par image : le mot « *illumination* » est caché en partie par la tête (texte entre le décor et la personne). Le grand mot glisse depuis la gauche en fondu ; l'amorce apparaît en fondu rapide.
 
-### N°2 — Sous-titres jaune pastel, serif classique (25/11/2026)
+### N°2 — Sous-titres jaune pastel, serif classique (25/11/2026) — remplacée par la n°1 pour la typo (on garde seulement la couleur `#FFF8B2`)
 - Source : réel vertical 1080×1920, 7 s (fichier `copy_5A0B6103….mov` envoyé dans la conversation, non gardé dans le dépôt). Balade d'automne, appareil photo Sony, plans de profil, cheveux au vent, escalier en bois, lumière de fin de journée.
 - Pour : June
 - Catégorie : typo et couleur des sous-titres
