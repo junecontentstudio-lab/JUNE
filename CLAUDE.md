@@ -247,3 +247,4 @@ Fichiers liés :
 | 25/10/2026 | Création de l'agent `idees-contenu` (recherche d'idées d'après les concurrents), du lancement de conversation dédiée et du script d'ajout d'idées dans Supabase. |
 | 25/10/2026 | Prochain chantier décidé : montage de réels avec HyperFrames à partir de mes rushs (tâche 9). Faisabilité testée. |
 | 29/10/2026 | Premier carrousel « studio sur place » (7 slides, scripts dans `post-studio/`) publié sur @junecontentstudio via Zernio (API `api.zernio.com`, compte Instagram connecté). Images avec photo de June gardées hors du dépôt (`post-studio/prive/`). |
+| 25/11/2026 | HyperFrames installé (v0.9.94) dans `video/` avec GSAP en local, et ses 9 skills copiées dans `.claude/skills/` (hyperframes, hyperframes-cli, hyperframes-registry, media-use, figma, slideshow, reverse-any-video, remotion-to-hyperframes, style-sampling). Après une nouvelle session : `cd video && npm install`. Rendu vertical testé : 10 s en ~13 s. |

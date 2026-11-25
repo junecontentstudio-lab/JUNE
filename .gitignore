@@ -9,3 +9,6 @@ post-2910/*.jpg
 post-2910/instagram/
 post-studio/prive/
 post-agence/prive/
+
+# HyperFrames (réinstallable avec : cd video && npm install)
+video/node_modules/
