@@ -51,11 +51,33 @@ Ce qui fait « un montage June », quel que soit le compte. Mettre à jour à ch
 | Café | `#3A2B22` | Texte |
 | Rose poudré | `#D9B8A6` | Touche douce, fonds secondaires |
 
-**Polices** : titres en **Cormorant Garamond** (italique pour les mots forts) ; étiquettes en **Jost** majuscules espacées ; signature « June » en script fin.
+**Typo des réels (référence n°1, 24/11/2026 : c'est CE style qu'on garde)**
 
-**Textes à l'écran**
-- Sous-titres : Cormorant Garamond, crème, en bas, 6 mots max par ligne.
-- Pas de texte sur l'image, sauf la couverture et les sous-titres.
+Deux niveaux de texte, jamais mélangés au même moment :
+
+1. **Sous-titres courants** (ce que dit la personne)
+   - Police : **sans-serif fine** (Jost Light), petite, en minuscules, blanc cassé.
+   - Placement : centrés, à hauteur de la poitrine (milieu bas de l'écran).
+   - Découpage : **2 à 4 mots** à la fois, qui changent au rythme de la voix. Apparition sèche, sans animation.
+
+2. **Mots-clés en « titre éditorial »** (1 ou 2 fois par réel, sur le mot fort de la phrase)
+   - Placé **en haut, au-dessus de la tête**, à la place des sous-titres (les sous-titres disparaissent pendant ce temps).
+   - Une **petite phrase d'amorce** en serif fine et contrastée, minuscules, couleur claire (ex. « où j'ai eu une », « sur tous les »)…
+   - … puis le **mot fort en très grand**, serif « magazine » à fort contraste (type Didot/Bodoni), **italique condensé** pour les mots (« *illumination* », « *pôles* »), romain gras pour les chiffres (« 360 »).
+   - Mise en page serrée : l'amorce **chevauche légèrement** le haut du grand mot, interlignage négatif, lettres serrées. Le grand mot peut être décalé vers la droite (effet escalier).
+   - Polices à tester : grand mot en **Playfair Display Italic** ou **Bodoni Moda Italic** ; amorce en **Bodoni Moda** fin ou **Cormorant Garamond Light**.
+
+**Effets de texte (référence n°1)**
+- L'amorce apparaît d'abord (fondu rapide), le grand mot arrive **un temps après**, sur le mot prononcé.
+- Le bloc reste environ 1 seconde puis disparaît ; on revient aux sous-titres.
+- **Flou de passage** : quand une nouvelle phrase arrive alors qu'un grand mot est encore à l'écran (« 360 » → « sur tous les pôles »), l'ancien grand mot **se floute et s'efface** pendant que le nouveau texte apparaît dessous.
+- Pas d'effets gadgets (rebond, rotation, couleurs flashy) : sobre et éditorial.
+
+**Couleurs des textes (demande de June, 24/11/2026)**
+- **Gros textes (mots-clés) : marron** (marron foncé, type `#4A2E20`) sur les fonds clairs.
+- **Jaune pastel** (type `#F2E2A0`) : couleur d'accent, et version claire des gros textes quand le fond est sombre.
+- Petits textes (sous-titres, amorces) : blanc cassé / crème.
+- ⚠️ Ces couleurs remplacent, pour les réels, le Sapin et le Laiton de la proposition v2. Codes exacts à valider avec June sur un test.
 
 **Signature**
 - Début : une porte ou une enseigne qui s'ouvre (« réel d'ouverture de porte »).
