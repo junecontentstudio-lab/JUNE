@@ -57,7 +57,8 @@ Deux niveaux de texte, jamais mélangés au même moment :
 
 1. **Sous-titres courants** (ce que dit la personne) : **police et couleur de la référence n°2**
    - Couleur : **jaune pastel `#FFF8B2`** (mesurée sur la vidéo), sans contour ni fond.
-   - Police : **serif classique type Times, en romain (pas d'italique), poids normal, lettres serrées**. Le nom exact n'est pas encore confirmé. En attendant, la plus proche testée est **Tinos** (le clone libre de Times New Roman) avec un espacement des lettres de -0,03 em ; Crimson Text est la deuxième option.
+   - Police : **True Fate** (la version Serif), confirmée par June le 25/11/2026 : c'est la police qu'elle utilise dans CapCut (police CapCut Pro). Elle est éditée par Set Sail Studios ; elle est payante en dehors de CapCut (environ 36-40 $ sur Fontspring, MyFonts…).
+   - Dans HyperFrames : utiliser le fichier `True Fate Serif` (.otf/.ttf) s'il est fourni par June (dossier `video/polices/`). Sinon, police de remplacement gratuite : **Tinos**, avec un espacement des lettres de -0,03 em, puis Crimson Text.
    - Taille : environ 46 px sur une vidéo 1080×1920 (petit, discret). En minuscules, comme on parle.
    - Placement : **centrés, au milieu de l'écran** (vers 50 % de la hauteur).
    - Découpage : 1 à 3 mots à la fois, qui changent au rythme de la voix (la référence n°2 affiche **un mot à la fois**).

@@ -38,7 +38,7 @@ Modèle d'une entrée :
 - Ce qu'on voit : **un seul mot à la fois** (« des », « aventures », « vécues », « racontées », « aujourd'hui », « décision »), centré au milieu de l'écran, petit (environ 46 px de haut de police), serif classique type Times, romain, lettres serrées, **jaune pastel `#FFF8B2`**, sans contour ni ombre visible. Coupes rapides entre les plans (environ 0,5 s), un mot par plan.
 - Ce qui plaît à June : **la couleur des sous-titres** et **exactement cette police**.
 - Ce qu'on garde : couleur `#FFF8B2` et police des sous-titres (règles dans `SKILL.md`). Les animations restent celles de la référence n°1.
-- À confirmer : le **nom exact de la police**. Les plus proches testées : Tinos (Times) avec un espacement de -0,03 em, puis Crimson Text.
+- Police confirmée par June (capture CapCut, 25/11) : **True Fate**, une police CapCut Pro, payante en dehors de CapCut (Set Sail Studios). Remplacement gratuit si on n'a pas le fichier : Tinos avec un espacement de -0,03 em.
 
 ## Clients
 
