@@ -12,3 +12,5 @@ post-agence/prive/
 
 # HyperFrames (réinstallable avec : cd video && npm install)
 video/node_modules/
+# Polices payantes (licence) : ne pas publier sur GitHub
+video/polices/
